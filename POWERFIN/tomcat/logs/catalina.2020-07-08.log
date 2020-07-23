@@ -1,0 +1,699 @@
+08-Jul-2020 08:13:34.620 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+08-Jul-2020 08:13:35.011 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+08-Jul-2020 08:13:35.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+08-Jul-2020 08:13:35.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Jul-2020 08:13:35.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.0.10-050010-generic
+08-Jul-2020 08:13:35.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jul-2020 08:13:35.012 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jre1.8.0_221
+08-Jul-2020 08:13:35.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+08-Jul-2020 08:13:35.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jul-2020 08:13:35.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lramon/POWERFIN/tomcat
+08-Jul-2020 08:13:35.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lramon/POWERFIN/tomcat
+08-Jul-2020 08:13:35.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lramon/POWERFIN/tomcat/conf/logging.properties
+08-Jul-2020 08:13:35.013 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2020 08:13:35.014 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2020 08:13:35.014 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2020 08:13:35.014 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jul-2020 08:13:35.014 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jul-2020 08:13:35.016 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lramon/POWERFIN/tomcat
+08-Jul-2020 08:13:35.017 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lramon/POWERFIN/tomcat/
+08-Jul-2020 08:13:35.017 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lramon/POWERFIN/tomcat/temp
+08-Jul-2020 08:13:35.017 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Jul-2020 08:13:37.148 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Jul-2020 08:13:37.491 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jul-2020 08:13:37.534 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2020 08:13:37.535 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Jul-2020 08:13:37.536 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6151 ms
+08-Jul-2020 08:13:37.791 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+08-Jul-2020 08:13:37.792 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+08-Jul-2020 08:13:37.869 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/home/lramon/POWERFIN/tomcat/webapps/powerfin] de la aplicación web
+08-Jul-2020 08:14:15.905 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = powerfinDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+08-Jul-2020 08:14:15.905 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = powerfinDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+08-Jul-2020 08:14:15.911 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = OpenXavaTestDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+08-Jul-2020 08:14:15.911 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = OpenXavaTestDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+08-Jul-2020 08:14:15.911 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = MySchoolDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+08-Jul-2020 08:14:15.912 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = MySchoolDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+08-Jul-2020 08:14:15.912 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = InvoiceDemoDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+08-Jul-2020 08:14:15.912 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = InvoiceDemoDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+08-Jul-2020 08:14:16.155 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+08-Jul-2020 08:14:16.560 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Using default implementation for ThreadExecutor
+08-Jul-2020 08:14:16.563 INFORMACIÓN [main] org.quartz.simpl.SimpleThreadPool.initialize Job execution threads will use class loader of thread: main
+08-Jul-2020 08:14:16.574 INFORMACIÓN [main] org.quartz.core.SchedulerSignalerImpl.<init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+08-Jul-2020 08:14:16.574 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.<init> Quartz Scheduler v.2.4.0-SNAPSHOT created.
+08-Jul-2020 08:14:16.575 INFORMACIÓN [main] org.quartz.simpl.RAMJobStore.initialize RAMJobStore initialized.
+08-Jul-2020 08:14:16.575 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.initialize Scheduler meta-data: Quartz Scheduler (v2.4.0-SNAPSHOT) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+08-Jul-2020 08:14:16.576 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+08-Jul-2020 08:14:16.576 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Quartz scheduler version: 2.4.0-SNAPSHOT
+08-Jul-2020 08:14:16.576 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+08-Jul-2020 08:14:16.577 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Start Scheduler...
+08-Jul-2020 08:14:18.894 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+08-Jul-2020 08:14:19.003 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+08-Jul-2020 08:14:19.658 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.9.Final}
+08-Jul-2020 08:14:19.660 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+08-Jul-2020 08:14:19.975 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+08-Jul-2020 08:14:20.320 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:14:22.696 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+08-Jul-2020 08:14:26.381 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+08-Jul-2020 08:14:26.387 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@557565a9
+08-Jul-2020 08:14:26.524 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+08-Jul-2020 08:14:28.657 WARN [main] org.hibernate.id.UUIDHexGenerator.<init> HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+08-Jul-2020 08:14:30.322 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.0.15.Final
+08-Jul-2020 08:14:34.929 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+08-Jul-2020 08:14:35.023 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+08-Jul-2020 08:14:35.024 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+08-Jul-2020 08:14:35.084 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:14:35.241 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+08-Jul-2020 08:14:35.324 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+08-Jul-2020 08:14:35.324 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@557565a9
+08-Jul-2020 08:14:35.325 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+08-Jul-2020 08:14:36.740 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+08-Jul-2020 08:14:37.947 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+08-Jul-2020 08:14:37.947 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+08-Jul-2020 08:14:37.977 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:14:38.102 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+08-Jul-2020 08:14:38.169 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+08-Jul-2020 08:14:38.169 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@557565a9
+08-Jul-2020 08:14:38.170 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+08-Jul-2020 08:14:39.375 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+08-Jul-2020 08:14:39.855 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized MOVILIZA ECUADOR, Tasks: 2
+08-Jul-2020 08:14:39.883 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: movilizaec, Task: NOTIFICACIONES POR EMAIL
+08-Jul-2020 08:14:39.888 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: movilizaec, Task: NOTIFICACIONES POR WHASTAPP
+08-Jul-2020 08:14:40.163 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized DEFAULT, Tasks: 0
+08-Jul-2020 08:14:40.185 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+08-Jul-2020 08:14:40.185 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+08-Jul-2020 08:14:40.233 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:14:40.366 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+08-Jul-2020 08:14:40.424 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+08-Jul-2020 08:14:40.425 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@557565a9
+08-Jul-2020 08:14:40.426 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+08-Jul-2020 08:14:41.476 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+08-Jul-2020 08:14:41.929 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized YALOBOX, Tasks: 0
+08-Jul-2020 08:14:41.941 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+08-Jul-2020 08:14:41.942 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+08-Jul-2020 08:14:42.031 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:14:42.172 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+08-Jul-2020 08:14:42.215 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+08-Jul-2020 08:14:42.216 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@557565a9
+08-Jul-2020 08:14:42.217 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+08-Jul-2020 08:14:43.539 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+08-Jul-2020 08:14:43.748 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized CRESAFE, Tasks: 0
+08-Jul-2020 08:14:43.885 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [134] milliseconds.
+08-Jul-2020 08:14:46.526 ADVERTENCIA [main] org.openxava.controller.meta.xmlparse.ControllersParser.createControllers ¡ADVERTENCIA! Se ha cargado el controlador DefaultListActionsForCollections más de una vez
+08-Jul-2020 08:14:47.263 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info DWR Version 2.0.10 starting.
+08-Jul-2020 08:14:47.263 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Servlet Engine: Apache Tomcat/9.0.13
+08-Jul-2020 08:14:47.263 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Java Version:   1.8.0_221
+08-Jul-2020 08:14:47.263 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Java Vendor:    Oracle Corporation
+08-Jul-2020 08:14:47.403 INFORMACIÓN [main] org.directwebremoting.dwrp.DefaultConverterManager.info Probably not an issue: org.jdom.Document is not available so the jdom converter will not load. This is only a problem if you wanted to use it.
+08-Jul-2020 08:14:47.403 INFORMACIÓN [main] org.directwebremoting.dwrp.DefaultConverterManager.info Probably not an issue: org.jdom.Element is not available so the jdom converter will not load. This is only a problem if you wanted to use it.
+08-Jul-2020 08:14:47.424 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lramon/POWERFIN/tomcat/webapps/powerfin] has finished in [69.554] ms
+08-Jul-2020 08:14:47.427 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2020 08:14:47.438 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2020 08:14:47.440 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 69903 ms
+08-Jul-2020 08:19:52.258 WARN [http-nio-8080-exec-2] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:19:52.302 WARN [http-nio-8080-exec-2] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+08-Jul-2020 08:19:52.329 INFORMACIÓN [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.<clinit> XavaPro 6.3.1 (2020-4-3)
+08-Jul-2020 08:19:53.095 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 null MODULE:SignIn
+08-Jul-2020 08:19:55.020 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=334 ms
+08-Jul-2020 08:19:56.654 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SignIn.signIn 390ms
+08-Jul-2020 08:19:56.655 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=396 ms
+08-Jul-2020 08:19:57.565 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ACTIVITYFLOWPORTFOLIOTRANSACTIONTYPE de POWERFIN no añadido: No existe
+08-Jul-2020 08:19:57.692 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.693 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.693 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.694 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.694 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.694 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.694 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.695 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.695 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.695 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.695 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.695 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.696 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.696 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.696 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.696 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.696 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.697 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.697 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.697 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.697 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.697 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.698 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.698 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.698 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.698 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+08-Jul-2020 08:19:57.801 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ContractEmployee de powerfin no añadido: No existe
+08-Jul-2020 08:19:57.822 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo RequestWorkAbsenteeism de powerfin no añadido: No existe
+08-Jul-2020 08:19:57.827 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo AuthorizeWorkAbsenteeism de powerfin no añadido: No existe
+08-Jul-2020 08:19:57.827 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ACTIVITYFLOWPORTFOLIOTRANSACTION de POWERFIN no añadido: No existe
+08-Jul-2020 08:19:57.915 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo AuthorizedWorkAbsenteeism de powerfin no añadido: No existe
+08-Jul-2020 08:19:58.005 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo RequestTXInvoiceSaleByCategory de powerfin no añadido: No existe
+08-Jul-2020 08:19:58.029 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 08:19:59.737 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:AuthorizeTXCreditNotePurchase
+08-Jul-2020 08:20:00.755 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionId, e_creditAccount_person.name, e.voucher, e.creditAccount.accountId, e_creditAccount.code, e_creditAccount_branch.name, e.currency.currencyId, e.value, e_transactionStatus.name, e.accountingDate from Transaction e left join e.creditAccount e_creditAccount left join e_creditAccount.person e_creditAccount_person left join e.creditAccount e_creditAccount left join e.creditAccount e_creditAccount left join e_creditAccount.branch e_creditAccount_branch left join e.transactionStatus e_transactionStatus where e.transactionStatus.transactionStatusId = '001' and e.transactionModule.transactionModuleId = 'CREDITNOTEPURCHASE' con argumentos 
+08-Jul-2020 08:20:01.909 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1166
+08-Jul-2020 08:20:03.898 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 08:20:03.900 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=4
+08-Jul-2020 08:20:03.957 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002','003') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 08:20:03.958 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=4
+08-Jul-2020 08:20:04.116 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 08:20:04.117 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 08:20:04.122 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 08:20:04.123 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 08:20:04.140 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=3418 ms
+08-Jul-2020 08:21:26.247 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Sections.change 13ms
+08-Jul-2020 08:21:26.396 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000022
+08-Jul-2020 08:21:26.521 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=126
+08-Jul-2020 08:21:26.830 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=602 ms
+08-Jul-2020 08:24:28.724 ADVERTENCIA [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 08:24:28.855 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:AuthorizeTXCreditPayable
+08-Jul-2020 08:24:29.342 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionId, e_creditAccount_person.name, e.voucher, e.currency.currencyId, e.remark, e.value, e_transactionStatus.name, e.accountingDate from Transaction e left join e.creditAccount e_creditAccount left join e_creditAccount.person e_creditAccount_person left join e.transactionStatus e_transactionStatus where e.transactionStatus.transactionStatusId = '001' and e.transactionModule.transactionModuleId = 'CREDITPAYABLE' con argumentos 
+08-Jul-2020 08:24:29.367 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=28
+08-Jul-2020 08:24:29.426 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 08:24:29.427 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 08:24:29.431 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002','003') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 08:24:29.432 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 08:24:29.441 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=107 ms
+08-Jul-2020 08:24:39.352 ADVERTENCIA [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 08:24:39.441 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:RequestTXCreditNoteSale
+08-Jul-2020 08:24:39.757 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account where e.account.accountStatus.accountStatusId = '001' and e.account.product.productType.productTypeId ='206' con argumentos 
+08-Jul-2020 08:24:40.540 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=788
+08-Jul-2020 08:24:40.624 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 08:24:40.625 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 08:24:40.630 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 08:24:40.632 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 08:24:40.638 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 08:24:40.639 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 08:24:40.673 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 08:24:40.674 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 08:24:40.715 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.personTypeId, e.personTypeId, e.name from PersonType e con argumentos 
+08-Jul-2020 08:24:40.716 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 08:24:40.723 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=974 ms
+08-Jul-2020 08:24:42.152 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 2ms
+08-Jul-2020 08:24:42.181 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 08:24:42.182 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 08:24:42.188 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account where e.account.accountStatus.accountStatusId = '001' and e.account.product.productType.productTypeId ='206' con argumentos 
+08-Jul-2020 08:24:42.191 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 08:24:42.198 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=51 ms
+08-Jul-2020 10:00:50.254 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 null MODULE:SignIn
+08-Jul-2020 10:00:50.510 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=10 ms
+08-Jul-2020 10:00:51.918 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SignIn.signIn 32ms
+08-Jul-2020 10:00:51.919 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=36 ms
+08-Jul-2020 10:00:51.966 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ACTIVITYFLOWPORTFOLIOTRANSACTIONTYPE de POWERFIN no añadido: No existe
+08-Jul-2020 10:00:51.975 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ContractEmployee de powerfin no añadido: No existe
+08-Jul-2020 10:00:51.980 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo RequestWorkAbsenteeism de powerfin no añadido: No existe
+08-Jul-2020 10:00:51.982 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo AuthorizeWorkAbsenteeism de powerfin no añadido: No existe
+08-Jul-2020 10:00:51.983 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ACTIVITYFLOWPORTFOLIOTRANSACTION de POWERFIN no añadido: No existe
+08-Jul-2020 10:00:51.985 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo AuthorizedWorkAbsenteeism de powerfin no añadido: No existe
+08-Jul-2020 10:00:51.988 ADVERTENCIA [http-nio-8080-exec-7] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo RequestTXInvoiceSaleByCategory de powerfin no añadido: No existe
+08-Jul-2020 10:00:51.989 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 10:00:52.126 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:AuthorizeTXCreditPayable
+08-Jul-2020 10:00:52.680 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionId, e_creditAccount_person.name, e.voucher, e.currency.currencyId, e.remark, e.value, e_transactionStatus.name, e.accountingDate from Transaction e left join e.creditAccount e_creditAccount left join e_creditAccount.person e_creditAccount_person left join e.transactionStatus e_transactionStatus where e.transactionStatus.transactionStatusId = '001' and e.transactionModule.transactionModuleId = 'CREDITPAYABLE' con argumentos 
+08-Jul-2020 10:00:52.682 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:00:52.714 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 10:00:52.715 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:00:52.721 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002','003') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 10:00:52.723 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:00:52.729 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=53 ms
+08-Jul-2020 10:00:59.816 ADVERTENCIA [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 10:00:59.920 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:RequestTXCreditPayable
+08-Jul-2020 10:01:00.269 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionId, e_creditAccount_person.name, e.voucher, e.currency.currencyId, e.remark, e.value, e_transactionStatus.name, e.accountingDate from Transaction e left join e.creditAccount e_creditAccount left join e_creditAccount.person e_creditAccount_person left join e.transactionStatus e_transactionStatus where e.transactionStatus.transactionStatusId = '001' and e.transactionModule.transactionModuleId = 'CREDITPAYABLE' con argumentos 
+08-Jul-2020 10:01:00.272 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 10:01:00.322 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 10:01:00.323 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:01:00.333 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionModuleId, e.transactionModuleId, e.name, e.transactionModuleId from TransactionModule e WHERE e.transactionModuleId = 'CREDITPAYABLE' con argumentos 
+08-Jul-2020 10:01:00.334 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 10:01:00.376 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 10:01:00.379 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 10:01:00.382 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=115 ms
+08-Jul-2020 10:01:30.025 ADVERTENCIA [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 10:01:30.124 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:RequestTXCreditNotePurchase
+08-Jul-2020 10:01:30.506 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account where e.account.accountStatus.accountStatusId = '001' and e.account.product.productType.productTypeId ='106' con argumentos 
+08-Jul-2020 10:01:30.509 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=6
+08-Jul-2020 10:01:30.539 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:01:30.540 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:01:30.553 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=52 ms
+08-Jul-2020 10:01:34.437 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 342ms
+08-Jul-2020 10:01:34.454 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:01:34.455 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:01:34.458 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:01:34.459 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:01:34.461 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 10:01:34.462 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:01:34.476 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:01:34.476 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:01:34.513 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.personTypeId, e.personTypeId, e.name from PersonType e con argumentos 
+08-Jul-2020 10:01:34.514 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:01:34.518 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=426 ms
+08-Jul-2020 10:07:04.143 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Sections.change 1ms
+08-Jul-2020 10:07:04.187 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:07:04.189 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:07:04.350 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=211 ms
+08-Jul-2020 10:07:07.258 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon AccountInvoiceActions.createNewInvoiceDetailToInvoice 16ms
+08-Jul-2020 10:07:07.293 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=56 ms
+08-Jul-2020 10:07:11.122 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Reference.search 44ms
+08-Jul-2020 10:07:11.158 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:07:11.159 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:07:11.173 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.accountId, e_branch.name, e.code, e.name, e.product.productId, e_product.name, e.currency.currencyId from Account e left join e.branch e_branch left join e.product e_product con argumentos 
+08-Jul-2020 10:07:11.209 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=42
+08-Jul-2020 10:07:12.321 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=1245 ms
+08-Jul-2020 10:07:21.416 ADVERTENCIA [http-nio-8080-exec-1] org.openxava.actions.BaseAction.setControllers class org.openxava.actions.ChooseReferenceAction implementa IChangeControllersAction, por tanto las llamadas a setControllers(), returnToPreviousControllers() y setDefaultControllers() se ignoran: IChangeControllersAction tiene preferencia 
+08-Jul-2020 10:07:21.447 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReferenceSearch.choose 94ms
+08-Jul-2020 10:07:21.545 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=193 ms
+08-Jul-2020 10:07:26.170 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SearchTax.SearchTaxForInvoicePurchase 16ms
+08-Jul-2020 10:07:26.189 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.taxTypeId, e.taxTypeId, e.name from TaxType e con argumentos 
+08-Jul-2020 10:07:26.305 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=117
+08-Jul-2020 10:07:26.322 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.taxId, e.taxId, e.name, e.percentage, e_taxType.name, e.category.categoryId from Tax e left join e.taxType e_taxType WHERE e.taxType.taxTypeId = '001' con argumentos 
+08-Jul-2020 10:07:26.324 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=10
+08-Jul-2020 10:07:26.350 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=197 ms
+08-Jul-2020 10:07:30.005 ADVERTENCIA [http-nio-8080-exec-10] org.openxava.actions.BaseAction.setControllers class org.openxava.actions.ChooseReferenceAction implementa IChangeControllersAction, por tanto las llamadas a setControllers(), returnToPreviousControllers() y setDefaultControllers() se ignoran: IChangeControllersAction tiene preferencia 
+08-Jul-2020 10:07:30.026 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReferenceSearch.choose 26ms
+08-Jul-2020 10:07:30.053 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=54 ms
+08-Jul-2020 10:07:38.765 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon AccountInvoiceActions.saveAccountInvoiceDetail 556ms
+08-Jul-2020 10:07:38.783 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:07:38.783 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:07:38.787 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:07:38.788 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:07:38.790 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 10:07:38.791 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:07:38.804 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:07:38.806 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:07:38.856 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:07:38.857 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:07:39.014 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=806 ms
+08-Jul-2020 10:14:28.872 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Collection.removeSelected 12ms
+08-Jul-2020 10:14:28.875 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:14:28.877 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 10:14:28.900 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:14:28.901 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:14:29.928 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=1072 ms
+08-Jul-2020 10:14:33.595 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:RequestTXCreditNotePurchase
+08-Jul-2020 10:14:34.260 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:14:34.262 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:14:34.407 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=387 ms
+08-Jul-2020 10:14:38.990 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Collection.removeSelected 511ms
+08-Jul-2020 10:14:38.999 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:14:39.002 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=5
+08-Jul-2020 10:14:39.037 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:14:39.038 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:14:39.520 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=1045 ms
+08-Jul-2020 10:14:42.401 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Sections.change 0ms
+08-Jul-2020 10:14:42.422 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.personTypeId, e.personTypeId, e.name from PersonType e con argumentos 
+08-Jul-2020 10:14:42.423 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:14:42.428 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=32 ms
+08-Jul-2020 10:14:45.398 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SearchAccount.SearchInvoicePurchaseToApplyCreditNote 61ms
+08-Jul-2020 10:14:45.416 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:14:45.417 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=0
+08-Jul-2020 10:14:45.419 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:14:45.420 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:14:45.430 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e_account_accountStatus.name, e_account_product.name, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account left join e.account e_account left join e_account.accountStatus e_account_accountStatus left join e.account e_account left join e_account.product e_account_product WHERE e.account.product.productType.productTypeId = '201' and e.account.accountStatus.accountStatusId in ('001','002','003','005') con argumentos 
+08-Jul-2020 10:14:46.010 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=585
+08-Jul-2020 10:14:47.365 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=2030 ms
+08-Jul-2020 10:14:54.840 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.setPropertyValues ¡ADVERTENCIA! No es posible asignar valor a una propiedad de una acción: Se requiere formato nombre=valor,nombre=valor o nombre(valor),nombre(valor)
+08-Jul-2020 10:14:54.857 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.filter 17ms
+08-Jul-2020 10:14:54.875 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:14:54.876 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:14:54.881 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:14:54.882 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:14:54.890 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e_account_accountStatus.name, e_account_product.name, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account left join e.account e_account left join e_account.accountStatus e_account_accountStatus left join e.account e_account left join e_account.product e_account_product WHERE e.account.product.productType.productTypeId = '201' and e.account.accountStatus.accountStatusId in ('001','002','003','005')  and upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.account.accountId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %FCO000484%
+08-Jul-2020 10:14:54.939 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=55
+08-Jul-2020 10:14:54.984 GRAVE [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request null
+ java.lang.NullPointerException
+	at org.openxava.view.View.getMetaModel(View.java:487)
+	at org.openxava.view.View.getMetaView(View.java:469)
+	at org.openxava.view.View.fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(View.java:5609)
+	at org.openxava.view.View.getChangedPropertiesActionsAndReferencesWithNotCompositeEditor(View.java:5518)
+	at org.openxava.web.dwr.Module.fillPropertiesUsedInCalculationsFromSumCollectionProperties(Module.java:332)
+	at org.openxava.web.dwr.Module.fillResult(Module.java:294)
+	at org.openxava.web.dwr.Module.request(Module.java:98)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Jul-2020 10:14:54.986 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=147 ms
+08-Jul-2020 10:14:56.737 ADVERTENCIA [http-nio-8080-exec-1] org.openxava.actions.BaseAction.setControllers class org.openxava.actions.ChooseReferenceAction implementa IChangeControllersAction, por tanto las llamadas a setControllers(), returnToPreviousControllers() y setDefaultControllers() se ignoran: IChangeControllersAction tiene preferencia 
+08-Jul-2020 10:14:56.764 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReferenceSearch.choose 168ms
+08-Jul-2020 10:14:56.838 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=243 ms
+08-Jul-2020 10:15:13.957 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=164 ms
+08-Jul-2020 10:15:18.403 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon RequestTXCreditNotePurchaseController.save 913ms
+08-Jul-2020 10:15:18.414 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:15:18.415 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:18.418 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 10:15:18.419 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:18.422 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:15:18.423 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:18.431 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:15:18.432 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:15:18.436 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.personTypeId, e.personTypeId, e.name from PersonType e con argumentos 
+08-Jul-2020 10:15:18.436 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:18.439 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=953 ms
+08-Jul-2020 10:15:36.606 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SearchAccount.SearchInvoicePurchaseToApplyCreditNote 66ms
+08-Jul-2020 10:15:36.638 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:15:36.639 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:15:36.643 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:15:36.645 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:15:36.648 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e_account_accountStatus.name, e_account_product.name, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account left join e.account e_account left join e_account.accountStatus e_account_accountStatus left join e.account e_account left join e_account.product e_account_product WHERE e.account.product.productType.productTypeId = '201' and e.account.accountStatus.accountStatusId in ('001','002','003','005') con argumentos 
+08-Jul-2020 10:15:36.668 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=21
+08-Jul-2020 10:15:36.750 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=212 ms
+08-Jul-2020 10:15:40.349 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.setPropertyValues ¡ADVERTENCIA! No es posible asignar valor a una propiedad de una acción: Se requiere formato nombre=valor,nombre=valor o nombre(valor),nombre(valor)
+08-Jul-2020 10:15:40.350 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.filter 2ms
+08-Jul-2020 10:15:40.363 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:15:40.364 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:15:40.366 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:15:40.367 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:40.368 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e_account_accountStatus.name, e_account_product.name, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account left join e.account e_account left join e_account.accountStatus e_account_accountStatus left join e.account e_account left join e_account.product e_account_product WHERE e.account.product.productType.productTypeId = '201' and e.account.accountStatus.accountStatusId in ('001','002','003','005')  and upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.account.accountId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %FCO000484%
+08-Jul-2020 10:15:40.414 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=46
+08-Jul-2020 10:15:40.456 GRAVE [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request null
+ java.lang.NullPointerException
+	at org.openxava.view.View.getMetaModel(View.java:487)
+	at org.openxava.view.View.getMetaView(View.java:469)
+	at org.openxava.view.View.fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(View.java:5609)
+	at org.openxava.view.View.getChangedPropertiesActionsAndReferencesWithNotCompositeEditor(View.java:5518)
+	at org.openxava.web.dwr.Module.fillPropertiesUsedInCalculationsFromSumCollectionProperties(Module.java:332)
+	at org.openxava.web.dwr.Module.fillResult(Module.java:294)
+	at org.openxava.web.dwr.Module.request(Module.java:98)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Jul-2020 10:15:40.457 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=110 ms
+08-Jul-2020 10:15:47.122 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.actions.BaseAction.setControllers class org.openxava.actions.ChooseReferenceAction implementa IChangeControllersAction, por tanto las llamadas a setControllers(), returnToPreviousControllers() y setDefaultControllers() se ignoran: IChangeControllersAction tiene preferencia 
+08-Jul-2020 10:15:47.267 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReferenceSearch.choose 276ms
+08-Jul-2020 10:15:47.355 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=365 ms
+08-Jul-2020 10:15:49.460 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon RequestTXCreditNotePurchaseController.save 125ms
+08-Jul-2020 10:15:49.464 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:15:49.465 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:49.466 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 10:15:49.467 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:49.469 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:15:49.469 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:49.471 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:15:49.472 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:49.474 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.personTypeId, e.personTypeId, e.name from PersonType e con argumentos 
+08-Jul-2020 10:15:49.474 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:15:49.476 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=144 ms
+08-Jul-2020 10:34:20.742 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:RequestTXCreditNotePurchase
+08-Jul-2020 10:34:21.210 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=161 ms
+08-Jul-2020 10:34:23.158 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Sections.change 0ms
+08-Jul-2020 10:34:23.183 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:34:23.185 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:34:23.228 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=73 ms
+08-Jul-2020 10:34:33.592 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon AccountInvoiceActions.createNewInvoiceDetailToInvoice 4ms
+08-Jul-2020 10:34:33.623 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=38 ms
+08-Jul-2020 10:35:04.617 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Reference.search 31ms
+08-Jul-2020 10:35:04.637 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:35:04.637 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:04.640 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.accountId, e_branch.name, e.code, e.name, e.product.productId, e_product.name, e.currency.currencyId from Account e left join e.branch e_branch left join e.product e_product con argumentos 
+08-Jul-2020 10:35:04.641 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:35:04.697 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=112 ms
+08-Jul-2020 10:35:07.941 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.setPropertyValues ¡ADVERTENCIA! No es posible asignar valor a una propiedad de una acción: Se requiere formato nombre=valor,nombre=valor o nombre(valor),nombre(valor)
+08-Jul-2020 10:35:07.942 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.filter 1ms
+08-Jul-2020 10:35:07.955 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:35:07.957 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:07.964 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.accountId, e_branch.name, e.code, e.name, e.product.productId, e_product.name, e.currency.currencyId from Account e left join e.branch e_branch left join e.product e_product WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.accountId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ITE002192%
+08-Jul-2020 10:35:08.048 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=87
+08-Jul-2020 10:35:08.129 GRAVE [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request null
+ java.lang.NullPointerException
+	at org.openxava.view.View.getMetaModel(View.java:487)
+	at org.openxava.view.View.getMetaView(View.java:469)
+	at org.openxava.view.View.fillChangedPropertiesActionsAndReferencesWithNotCompositeEditor(View.java:5609)
+	at org.openxava.view.View.getChangedPropertiesActionsAndReferencesWithNotCompositeEditor(View.java:5518)
+	at org.openxava.web.dwr.Module.fillPropertiesUsedInCalculationsFromSumCollectionProperties(Module.java:332)
+	at org.openxava.web.dwr.Module.fillResult(Module.java:294)
+	at org.openxava.web.dwr.Module.request(Module.java:98)
+	at sun.reflect.GeneratedMethodAccessor107.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+08-Jul-2020 10:35:08.130 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=191 ms
+08-Jul-2020 10:35:09.738 ADVERTENCIA [http-nio-8080-exec-10] org.openxava.actions.BaseAction.setControllers class org.openxava.actions.ChooseReferenceAction implementa IChangeControllersAction, por tanto las llamadas a setControllers(), returnToPreviousControllers() y setDefaultControllers() se ignoran: IChangeControllersAction tiene preferencia 
+08-Jul-2020 10:35:09.761 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReferenceSearch.choose 28ms
+08-Jul-2020 10:35:09.789 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=57 ms
+08-Jul-2020 10:35:14.672 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SearchTax.SearchTaxForInvoicePurchase 10ms
+08-Jul-2020 10:35:14.693 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.taxTypeId, e.taxTypeId, e.name from TaxType e con argumentos 
+08-Jul-2020 10:35:14.694 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:14.695 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.taxId, e.taxId, e.name, e.percentage, e_taxType.name, e.category.categoryId from Tax e left join e.taxType e_taxType WHERE e.taxType.taxTypeId = '001' con argumentos 
+08-Jul-2020 10:35:14.695 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=0
+08-Jul-2020 10:35:14.710 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=49 ms
+08-Jul-2020 10:35:18.842 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.actions.BaseAction.setControllers class org.openxava.actions.ChooseReferenceAction implementa IChangeControllersAction, por tanto las llamadas a setControllers(), returnToPreviousControllers() y setDefaultControllers() se ignoran: IChangeControllersAction tiene preferencia 
+08-Jul-2020 10:35:18.861 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReferenceSearch.choose 22ms
+08-Jul-2020 10:35:18.889 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=52 ms
+08-Jul-2020 10:35:33.113 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon AccountInvoiceActions.saveAccountInvoiceDetail 320ms
+08-Jul-2020 10:35:33.153 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:35:33.154 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:35:33.157 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:35:33.157 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:33.159 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 10:35:33.160 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:33.170 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:35:33.170 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:33.205 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:35:33.207 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:33.349 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=557 ms
+08-Jul-2020 10:35:36.923 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon RequestTXCreditNotePurchaseController.save 113ms
+08-Jul-2020 10:35:36.927 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:35:36.928 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:35:36.955 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000165
+08-Jul-2020 10:35:36.956 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:36.994 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 10:35:36.996 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:35:36.998 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 10:35:37.000 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:37.003 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:35:37.004 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 10:35:37.010 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 10:35:37.011 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 10:35:37.043 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=235 ms
+08-Jul-2020 17:51:18.984 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 null MODULE:SignIn
+08-Jul-2020 17:51:22.966 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=287 ms
+08-Jul-2020 17:51:24.326 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SignIn.signIn 219ms
+08-Jul-2020 17:51:24.326 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=222 ms
+08-Jul-2020 17:51:24.592 ADVERTENCIA [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 17:51:27.700 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:RequestTXCreditNotePurchase
+08-Jul-2020 17:51:29.161 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account where e.account.accountStatus.accountStatusId = '001' and e.account.product.productType.productTypeId ='106' con argumentos 
+08-Jul-2020 17:51:29.407 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=245
+08-Jul-2020 17:51:30.189 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 17:51:30.189 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 17:51:30.191 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 17:51:30.192 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=0
+08-Jul-2020 17:51:30.193 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.unityId, e.unityId, e.name from Unity e con argumentos 
+08-Jul-2020 17:51:30.193 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=0
+08-Jul-2020 17:51:30.202 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 17:51:30.202 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 17:51:30.225 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.personTypeId, e.personTypeId, e.name from PersonType e con argumentos 
+08-Jul-2020 17:51:30.226 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=0
+08-Jul-2020 17:51:30.229 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=1119 ms
+08-Jul-2020 17:51:50.234 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+08-Jul-2020 17:51:50.252 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 17:51:50.253 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 17:51:50.255 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountId, e.account.accountId, e_account_branch.name, e.account.currency.currencyId, e_account_person.name, e_account.code, e.issueDate from AccountInvoice e left join e.account e_account left join e_account.branch e_account_branch left join e.account e_account left join e.account e_account left join e_account.person e_account_person left join e.account e_account where e.account.accountStatus.accountStatusId = '001' and e.account.product.productType.productTypeId ='106' con argumentos 
+08-Jul-2020 17:51:50.257 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 17:51:50.275 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=45 ms
+08-Jul-2020 17:51:55.064 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 489ms
+08-Jul-2020 17:51:55.131 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=558 ms
+08-Jul-2020 17:51:57.037 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Sections.change 0ms
+08-Jul-2020 17:51:57.060 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000301
+08-Jul-2020 17:51:57.157 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=97
+08-Jul-2020 17:51:57.361 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=327 ms
+08-Jul-2020 18:03:42.243 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 22ms
+08-Jul-2020 18:03:42.262 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000301
+08-Jul-2020 18:03:42.263 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 18:03:42.535 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=317 ms
+08-Jul-2020 18:03:45.575 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 0ms
+08-Jul-2020 18:03:45.590 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000301
+08-Jul-2020 18:03:45.591 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:03:45.762 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=190 ms
+08-Jul-2020 18:03:48.382 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 0ms
+08-Jul-2020 18:03:48.407 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000301
+08-Jul-2020 18:03:48.408 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:03:48.545 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=164 ms
+08-Jul-2020 18:03:50.065 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 0ms
+08-Jul-2020 18:03:50.082 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000301
+08-Jul-2020 18:03:50.084 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:03:50.267 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=205 ms
+08-Jul-2020 18:07:08.916 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.orderBy 11ms
+08-Jul-2020 18:07:08.947 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 order by e.accountDetail.accountId asc con argumentos NCC000301
+08-Jul-2020 18:07:08.950 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=32
+08-Jul-2020 18:07:08.978 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 order by e.accountDetail.accountId asc con argumentos NCC000301
+08-Jul-2020 18:07:08.979 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 18:07:09.190 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=287 ms
+08-Jul-2020 18:10:24.681 ADVERTENCIA [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+08-Jul-2020 18:10:24.764 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:AuthorizeTXCreditNotePurchase
+08-Jul-2020 18:10:25.136 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionId, e_creditAccount_person.name, e.voucher, e.creditAccount.accountId, e_creditAccount.code, e_creditAccount_branch.name, e.currency.currencyId, e.value, e_transactionStatus.name, e.accountingDate from Transaction e left join e.creditAccount e_creditAccount left join e_creditAccount.person e_creditAccount_person left join e.creditAccount e_creditAccount left join e.creditAccount e_creditAccount left join e_creditAccount.branch e_creditAccount_branch left join e.transactionStatus e_transactionStatus where e.transactionStatus.transactionStatusId = '001' and e.transactionModule.transactionModuleId = 'CREDITNOTEPURCHASE' con argumentos 
+08-Jul-2020 18:10:25.375 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=238
+08-Jul-2020 18:10:25.428 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 18:10:25.429 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:10:25.431 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 18:10:25.432 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=0
+08-Jul-2020 18:10:25.434 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002','003') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 18:10:25.434 DETALLADO [http-nio-8080-exec-10] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:10:25.458 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=324 ms
+08-Jul-2020 18:10:30.624 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 557ms
+08-Jul-2020 18:10:30.649 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 18:10:30.651 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 18:10:30.672 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002','003') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 18:10:30.673 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:10:30.742 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountStatusId, e.accountStatusId, e.name from AccountStatus e con argumentos 
+08-Jul-2020 18:10:30.744 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:10:30.748 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 18:10:30.749 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:10:30.757 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=691 ms
+08-Jul-2020 18:10:32.993 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Sections.change 0ms
+08-Jul-2020 18:10:33.018 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000301
+08-Jul-2020 18:10:33.020 DETALLADO [http-nio-8080-exec-5] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+08-Jul-2020 18:10:33.331 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=340 ms
+08-Jul-2020 18:10:40.921 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 4ms
+08-Jul-2020 18:10:41.272 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+08-Jul-2020 18:10:41.273 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 18:10:41.282 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.currencyId, e.currencyId, e.currencyId, e.name from Currency e con argumentos 
+08-Jul-2020 18:10:41.283 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+08-Jul-2020 18:10:41.315 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionStatusId, e.transactionStatusId, e.name, e.transactionStatusId from TransactionStatus e WHERE e.transactionStatusId IN ('001','002','003') ORDER BY transactionStatusId con argumentos 
+08-Jul-2020 18:10:41.329 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=15
+08-Jul-2020 18:10:41.333 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.transactionId, e_creditAccount_person.name, e.voucher, e.creditAccount.accountId, e_creditAccount.code, e_creditAccount_branch.name, e.currency.currencyId, e.value, e_transactionStatus.name, e.accountingDate from Transaction e left join e.creditAccount e_creditAccount left join e_creditAccount.person e_creditAccount_person left join e.creditAccount e_creditAccount left join e.creditAccount e_creditAccount left join e_creditAccount.branch e_creditAccount_branch left join e.transactionStatus e_transactionStatus where e.transactionStatus.transactionStatusId = '001' and e.transactionModule.transactionModuleId = 'CREDITNOTEPURCHASE' con argumentos 
+08-Jul-2020 18:10:41.336 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+08-Jul-2020 18:10:41.673 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=776 ms
+08-Jul-2020 18:10:51.805 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 243ms
+08-Jul-2020 18:10:51.889 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.accountInvoiceDetailId, e.accountDetail.accountId, e_accountDetail.name, e.taxPercentage, e.quantity, e.unitPrice, e.discount, e.dueDate, e.taxSpecialConsumption, e.taxRedeemable, e.amount from AccountInvoiceDetail e left join e.accountDetail e_accountDetail WHERE e.accountInvoice.accountId = :p0 con argumentos NCC000049
+08-Jul-2020 18:10:51.923 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=32
+08-Jul-2020 18:10:52.021 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=459 ms
+08-Jul-2020 23:29:12.278 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2020 23:29:12.569 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2020 23:29:12.577 INFORMACIÓN [Thread-5] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+08-Jul-2020 23:29:13.189 INFORMACIÓN [Thread-5] org.quartz.core.QuartzScheduler.shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+08-Jul-2020 23:29:13.190 INFORMACIÓN [Thread-5] org.quartz.core.QuartzScheduler.standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+08-Jul-2020 23:29:13.585 INFORMACIÓN [Thread-5] org.quartz.core.QuartzScheduler.shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+08-Jul-2020 23:29:13.826 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.830 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@5085af25]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.831 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.832 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@253c4fa]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.834 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.835 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@7a175c5c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.836 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.837 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@efadc30]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.838 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.840 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@2515b154]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.842 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.843 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@6510bdab]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.844 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.845 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@3dd3e665]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.846 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.847 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@35446f9a]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.847 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.848 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@3fec4355]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.848 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@3f2db52a]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@6aa209df]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.849 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@1e9539c0]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@5f715ce6]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+08-Jul-2020 23:29:13.937 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2020 23:29:13.952 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Jul-2020 23:29:14.001 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2020 23:29:14.007 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

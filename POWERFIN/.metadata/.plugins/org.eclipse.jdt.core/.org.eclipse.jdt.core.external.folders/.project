@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>/home/lramon/.groovy/greclipse/global_dsld_support</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>/home/lramon/Desktop/eclipse2018/eclipse/plugins/org.codehaus.groovy_2.5.13.v202007222300-e1812/plugin_dsld_support</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>/powerfin/lib/#%20Space-separated%20list%20of%20extra%20javac%20options</location>
+		</link>
+	</linkedResources>
+</projectDescription>

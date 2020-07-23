@@ -1,0 +1,808 @@
+16-May-2020 13:26:07.603 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+16-May-2020 13:26:07.744 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+16-May-2020 13:26:07.744 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+16-May-2020 13:26:07.745 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-May-2020 13:26:07.745 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.0.10-050010-generic
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jre1.8.0_221
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lramon/POWERFIN/tomcat
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lramon/POWERFIN/tomcat
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lramon/POWERFIN/tomcat/conf/logging.properties
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-May-2020 13:26:07.746 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-May-2020 13:26:07.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+16-May-2020 13:26:07.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-May-2020 13:26:07.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lramon/POWERFIN/tomcat
+16-May-2020 13:26:07.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lramon/POWERFIN/tomcat/
+16-May-2020 13:26:07.747 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lramon/POWERFIN/tomcat/temp
+16-May-2020 13:26:07.747 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+16-May-2020 13:26:08.958 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-May-2020 13:26:09.149 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-May-2020 13:26:09.338 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-May-2020 13:26:09.339 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-May-2020 13:26:09.340 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 11326 ms
+16-May-2020 13:26:10.736 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+16-May-2020 13:26:10.737 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+16-May-2020 13:26:10.825 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/home/lramon/POWERFIN/tomcat/webapps/powerfin] de la aplicación web
+16-May-2020 13:26:22.795 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = powerfinDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+16-May-2020 13:26:22.795 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = powerfinDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-May-2020 13:26:22.801 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = OpenXavaTestDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+16-May-2020 13:26:22.801 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = OpenXavaTestDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-May-2020 13:26:22.802 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = MySchoolDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+16-May-2020 13:26:22.802 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = MySchoolDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-May-2020 13:26:22.802 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = InvoiceDemoDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+16-May-2020 13:26:22.802 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = InvoiceDemoDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+16-May-2020 13:26:22.960 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+16-May-2020 13:26:23.105 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Using default implementation for ThreadExecutor
+16-May-2020 13:26:23.108 INFORMACIÓN [main] org.quartz.simpl.SimpleThreadPool.initialize Job execution threads will use class loader of thread: main
+16-May-2020 13:26:23.119 INFORMACIÓN [main] org.quartz.core.SchedulerSignalerImpl.<init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+16-May-2020 13:26:23.119 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.<init> Quartz Scheduler v.2.4.0-SNAPSHOT created.
+16-May-2020 13:26:23.119 INFORMACIÓN [main] org.quartz.simpl.RAMJobStore.initialize RAMJobStore initialized.
+16-May-2020 13:26:23.120 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.initialize Scheduler meta-data: Quartz Scheduler (v2.4.0-SNAPSHOT) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+16-May-2020 13:26:23.120 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+16-May-2020 13:26:23.120 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Quartz scheduler version: 2.4.0-SNAPSHOT
+16-May-2020 13:26:23.121 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+16-May-2020 13:26:23.122 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Start Scheduler...
+16-May-2020 13:26:23.888 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+16-May-2020 13:26:23.921 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16-May-2020 13:26:24.072 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.9.Final}
+16-May-2020 13:26:24.074 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+16-May-2020 13:26:24.288 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+16-May-2020 13:26:24.493 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+16-May-2020 13:26:25.603 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16-May-2020 13:26:26.244 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+16-May-2020 13:26:26.249 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@615a80fa
+16-May-2020 13:26:26.259 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+16-May-2020 13:26:27.583 WARN [main] org.hibernate.id.UUIDHexGenerator.<init> HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+16-May-2020 13:26:27.773 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.0.15.Final
+16-May-2020 13:26:32.314 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+16-May-2020 13:26:32.698 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+16-May-2020 13:26:32.698 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16-May-2020 13:26:32.733 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+16-May-2020 13:26:32.836 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16-May-2020 13:26:32.913 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+16-May-2020 13:26:32.913 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@615a80fa
+16-May-2020 13:26:32.914 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+16-May-2020 13:26:33.613 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+16-May-2020 13:26:35.388 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+16-May-2020 13:26:35.388 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16-May-2020 13:26:35.420 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+16-May-2020 13:26:35.505 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16-May-2020 13:26:35.556 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+16-May-2020 13:26:35.557 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@615a80fa
+16-May-2020 13:26:35.557 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+16-May-2020 13:26:36.458 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+16-May-2020 13:26:36.838 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized MOVILIZA ECUADOR, Tasks: 2
+16-May-2020 13:26:36.870 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: movilizaec, Task: NOTIFICACIONES POR EMAIL
+16-May-2020 13:26:36.885 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: movilizaec, Task: NOTIFICACIONES POR WHASTAPP
+16-May-2020 13:26:36.937 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized DEFAULT, Tasks: 0
+16-May-2020 13:26:36.954 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+16-May-2020 13:26:36.954 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16-May-2020 13:26:37.028 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+16-May-2020 13:26:37.108 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16-May-2020 13:26:37.155 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+16-May-2020 13:26:37.156 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@615a80fa
+16-May-2020 13:26:37.156 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+16-May-2020 13:26:37.661 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+16-May-2020 13:26:37.833 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized YALOBOX, Tasks: 0
+16-May-2020 13:26:38.760 ADVERTENCIA [main] org.openxava.controller.meta.xmlparse.ControllersParser.createControllers ¡ADVERTENCIA! Se ha cargado el controlador DefaultListActionsForCollections más de una vez
+16-May-2020 13:26:39.448 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info DWR Version 2.0.10 starting.
+16-May-2020 13:26:39.448 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Servlet Engine: Apache Tomcat/9.0.13
+16-May-2020 13:26:39.448 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Java Version:   1.8.0_221
+16-May-2020 13:26:39.448 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Java Vendor:    Oracle Corporation
+16-May-2020 13:26:39.584 INFORMACIÓN [main] org.directwebremoting.dwrp.DefaultConverterManager.info Probably not an issue: org.jdom.Document is not available so the jdom converter will not load. This is only a problem if you wanted to use it.
+16-May-2020 13:26:39.584 INFORMACIÓN [main] org.directwebremoting.dwrp.DefaultConverterManager.info Probably not an issue: org.jdom.Element is not available so the jdom converter will not load. This is only a problem if you wanted to use it.
+16-May-2020 13:26:39.641 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lramon/POWERFIN/tomcat/webapps/powerfin] has finished in [28.814] ms
+16-May-2020 13:26:39.645 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-May-2020 13:26:39.658 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-May-2020 13:26:39.665 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 30325 ms
+16-May-2020 20:24:48.320 WARN [http-nio-8080-exec-1] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+16-May-2020 20:24:48.366 WARN [http-nio-8080-exec-1] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+16-May-2020 20:24:48.396 INFORMACIÓN [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.<clinit> XavaPro 6.3.1 (2020-4-3)
+16-May-2020 20:24:49.304 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 null MODULE:SignIn
+16-May-2020 20:24:49.778 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=202 ms
+16-May-2020 20:24:51.412 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SignIn.signIn 311ms
+16-May-2020 20:24:51.413 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=316 ms
+16-May-2020 20:24:51.977 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ACTIVITYFLOWPORTFOLIOTRANSACTIONTYPE de POWERFIN no añadido: No existe
+16-May-2020 20:24:52.078 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.078 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.079 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.080 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.080 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.080 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.080 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.080 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.080 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.081 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.081 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.081 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.081 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.081 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.081 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.082 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.082 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.082 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.082 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.082 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+16-May-2020 20:24:52.172 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ContractEmployee de powerfin no añadido: No existe
+16-May-2020 20:24:52.187 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo ACTIVITYFLOWPORTFOLIOTRANSACTION de POWERFIN no añadido: No existe
+16-May-2020 20:24:52.222 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo AuthorizeTransactionPayRoll de powerfin no añadido: No existe
+16-May-2020 20:24:52.234 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo PayrollBiweekAdvancePercentage de powerfin no añadido: No existe
+16-May-2020 20:24:52.383 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo RequestTransactionPayRoll de powerfin no añadido: No existe
+16-May-2020 20:24:52.386 ADVERTENCIA [http-nio-8080-exec-5] com.openxava.naviox.impl.ModulesHelper.toMetaModules Módulo RequestTXInvoiceSaleByCategory de powerfin no añadido: No existe
+16-May-2020 20:24:52.570 ADVERTENCIA [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.setModeControllerName DetailList ya no está soportado. Usaremos el controlador Mode en su lugar
+16-May-2020 20:24:54.136 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:Report
+16-May-2020 20:24:55.729 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e con argumentos 
+16-May-2020 20:24:57.614 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1891
+16-May-2020 20:24:57.755 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=2054 ms
+16-May-2020 20:25:02.867 ADVERTENCIA [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.setPropertyValues ¡ADVERTENCIA! No es posible asignar valor a una propiedad de una acción: Se requiere formato nombre=valor,nombre=valor o nombre(valor),nombre(valor)
+16-May-2020 20:25:02.887 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.filter 22ms
+16-May-2020 20:25:02.913 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROLE%
+16-May-2020 20:25:03.055 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=148
+16-May-2020 20:25:03.063 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=201 ms
+16-May-2020 20:25:05.040 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 211ms
+16-May-2020 20:25:05.094 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=269 ms
+16-May-2020 20:25:07.874 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:25:07.906 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROLE%
+16-May-2020 20:25:07.910 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=4
+16-May-2020 20:25:07.917 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=49 ms
+16-May-2020 20:25:10.363 ADVERTENCIA [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.setPropertyValues ¡ADVERTENCIA! No es posible asignar valor a una propiedad de una acción: Se requiere formato nombre=valor,nombre=valor o nombre(valor),nombre(valor)
+16-May-2020 20:25:10.365 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.filter 3ms
+16-May-2020 20:25:10.387 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:25:10.506 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=118
+16-May-2020 20:25:10.541 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=182 ms
+16-May-2020 20:25:15.251 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 114ms
+16-May-2020 20:25:15.292 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=157 ms
+16-May-2020 20:25:17.183 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 2ms
+16-May-2020 20:25:17.271 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:25:17.285 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=15
+16-May-2020 20:25:17.298 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=120 ms
+16-May-2020 20:25:22.267 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 12ms
+16-May-2020 20:25:22.297 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=43 ms
+16-May-2020 20:25:24.539 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 31ms
+16-May-2020 20:25:24.556 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=51 ms
+16-May-2020 20:25:26.859 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:25:26.902 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:25:26.919 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=18
+16-May-2020 20:25:26.925 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=73 ms
+16-May-2020 20:25:28.407 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 59ms
+16-May-2020 20:25:28.418 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=72 ms
+16-May-2020 20:25:31.539 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:25:31.568 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:25:31.578 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=10
+16-May-2020 20:25:31.585 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=52 ms
+16-May-2020 20:25:33.797 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 1ms
+16-May-2020 20:25:33.825 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=31 ms
+16-May-2020 20:25:36.773 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 26ms
+16-May-2020 20:25:36.810 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=66 ms
+16-May-2020 20:25:38.756 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:25:38.783 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:25:38.792 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=10
+16-May-2020 20:25:38.805 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=51 ms
+16-May-2020 20:25:40.717 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 106ms
+16-May-2020 20:25:40.748 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=140 ms
+16-May-2020 20:25:42.582 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:25:42.623 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:25:42.631 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=8
+16-May-2020 20:25:42.644 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=68 ms
+16-May-2020 20:25:44.407 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 100ms
+16-May-2020 20:25:44.443 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=137 ms
+16-May-2020 20:26:14.973 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc60172203d0f620008
+16-May-2020 20:26:15.366 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff80818172136fbb017213ea4c06004b
+16-May-2020 20:26:15.735 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 927ms
+16-May-2020 20:26:15.771 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=969 ms
+16-May-2020 20:26:16.759 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:26:16.790 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:26:16.803 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=13
+16-May-2020 20:26:16.816 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=61 ms
+16-May-2020 20:26:19.946 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 18ms
+16-May-2020 20:26:19.961 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=33 ms
+16-May-2020 20:26:30.367 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc60172203d4c12000c
+16-May-2020 20:26:30.395 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff80818172136fbb017213e562190043
+16-May-2020 20:26:30.417 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 58ms
+16-May-2020 20:26:30.421 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=66 ms
+16-May-2020 20:26:31.471 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 2ms
+16-May-2020 20:26:31.516 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:26:31.530 DETALLADO [http-nio-8080-exec-6] org.openxava.tab.impl.TableModelBean.getRow nextChunk=14
+16-May-2020 20:26:31.550 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=83 ms
+16-May-2020 20:26:35.067 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 306ms
+16-May-2020 20:26:35.099 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=338 ms
+16-May-2020 20:26:47.017 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc60172203d87b70010
+16-May-2020 20:26:47.061 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff80818172136fbb017213e418eb0033
+16-May-2020 20:26:47.141 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 132ms
+16-May-2020 20:26:47.155 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=150 ms
+16-May-2020 20:26:49.323 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:26:49.360 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:26:49.371 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=11
+16-May-2020 20:26:49.384 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=65 ms
+16-May-2020 20:26:55.933 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 0ms
+16-May-2020 20:26:55.955 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=24 ms
+16-May-2020 20:27:02.722 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 24ms
+16-May-2020 20:27:02.736 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=40 ms
+16-May-2020 20:27:36.534 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc60172203e500b0014
+16-May-2020 20:27:36.559 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff80818172136fbb017213d91aef0023
+16-May-2020 20:27:36.761 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 233ms
+16-May-2020 20:27:36.771 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=245 ms
+16-May-2020 20:27:37.725 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:27:37.755 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:27:37.764 DETALLADO [http-nio-8080-exec-9] org.openxava.tab.impl.TableModelBean.getRow nextChunk=9
+16-May-2020 20:27:37.770 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=48 ms
+16-May-2020 20:27:41.470 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.goPage 1ms
+16-May-2020 20:27:41.497 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=30 ms
+16-May-2020 20:27:43.651 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 103ms
+16-May-2020 20:27:43.697 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=151 ms
+16-May-2020 20:27:57.182 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc60172203e92c30018
+16-May-2020 20:27:57.209 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff80818172136fbb017213e4d44b003b
+16-May-2020 20:27:57.406 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 235ms
+16-May-2020 20:27:57.416 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=249 ms
+16-May-2020 20:27:59.316 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:27:59.355 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:27:59.366 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=11
+16-May-2020 20:27:59.402 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=90 ms
+16-May-2020 20:28:02.173 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 22ms
+16-May-2020 20:28:02.185 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=34 ms
+16-May-2020 20:28:13.494 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc60172203eddee001c
+16-May-2020 20:28:13.519 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff80818172136fbb017213e52754003f
+16-May-2020 20:28:13.629 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 145ms
+16-May-2020 20:28:13.639 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=159 ms
+16-May-2020 20:28:38.770 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:28:39.043 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.fiscalMonthId, e.fiscalMonthId, e.name from FiscalMonth e con argumentos 
+16-May-2020 20:28:39.044 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+16-May-2020 20:28:39.049 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.fiscalYearId, e.fiscalYearId, e.name from FiscalYear e con argumentos 
+16-May-2020 20:28:39.050 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=3
+16-May-2020 20:28:39.055 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.payrollTypeId, e.payrollTypeId, e.name from PayrollType e con argumentos 
+16-May-2020 20:28:39.056 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=2
+16-May-2020 20:28:39.057 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=80 ms
+16-May-2020 20:28:49.157 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLES
+16-May-2020 20:28:49.158 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:28:49.159 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: payment_roles.jrxml
+16-May-2020 20:28:49.159 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: EXCEL
+16-May-2020 20:28:50.024 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020}
+16-May-2020 20:28:50.915 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRolePrinting 1773ms
+16-May-2020 20:28:50.915 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=1775 ms
+16-May-2020 20:28:51.024 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:28:51.182 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=16 ms
+16-May-2020 20:29:37.242 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:29:37.243 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:37.244 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:29:37.244 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:37.494 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:29:37.494 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:37.495 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:29:37.495 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:37.552 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:29:37.552 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:37.553 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:29:37.553 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:37.606 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:29:37.607 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:37.607 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:29:37.607 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:37.658 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:29:37.659 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:37.659 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:29:37.660 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:37.707 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:29:37.708 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:37.708 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:29:37.708 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:37.748 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7950e1ca, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@3e68f212, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@5b856cd6, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@6be199d0, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@15416bd7}
+16-May-2020 20:29:37.767 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 534ms
+16-May-2020 20:29:37.768 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=537 ms
+16-May-2020 20:29:37.893 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:29:38.037 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=12 ms
+16-May-2020 20:29:56.301 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:29:56.302 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:56.303 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:29:56.304 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:56.517 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:29:56.518 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:56.518 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:29:56.518 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:56.566 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:29:56.566 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:56.567 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:29:56.567 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:56.612 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:29:56.613 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:56.613 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:29:56.613 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:56.656 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:29:56.657 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:56.657 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:29:56.658 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:56.699 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:29:56.699 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:29:56.700 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:29:56.700 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:29:56.740 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@1fb92924, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=QUI, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@523bec68, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@3d3359db, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@29fe0faa, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7f58e3b8}
+16-May-2020 20:29:56.750 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 449ms
+16-May-2020 20:29:56.750 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=453 ms
+16-May-2020 20:29:56.908 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:29:57.056 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=13 ms
+16-May-2020 20:52:00.492 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:52:00.493 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:00.493 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:52:00.493 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:00.610 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:52:00.612 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:00.612 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:52:00.612 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:00.683 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:52:00.684 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:00.685 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:52:00.685 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:00.731 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:52:00.732 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:00.732 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:52:00.732 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:00.773 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:52:00.774 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:00.774 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:52:00.774 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:00.816 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:52:00.817 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:00.818 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:52:00.819 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:00.857 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@a3c9e67, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@133dfb06, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@5fdbfe1b, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@265d799e, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@487c0494}
+16-May-2020 20:52:00.864 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 373ms
+16-May-2020 20:52:00.865 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=375 ms
+16-May-2020 20:52:00.989 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:52:01.122 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=12 ms
+16-May-2020 20:52:38.054 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:52:38.055 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:38.055 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:52:38.055 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:38.189 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:52:38.190 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:38.190 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:52:38.190 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:38.231 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:52:38.232 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:38.232 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:52:38.233 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:38.270 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:52:38.270 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:38.271 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:52:38.271 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:38.300 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:52:38.300 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:38.301 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:52:38.302 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:38.329 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:52:38.330 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:38.331 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:52:38.331 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:38.358 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@71ead510, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@69602f27, FISCAL_MONTH=10, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@20776de9, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@6dbf8631, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@4ada9cc3}
+16-May-2020 20:52:38.367 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 314ms
+16-May-2020 20:52:38.367 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=316 ms
+16-May-2020 20:52:38.499 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:52:38.663 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=10 ms
+16-May-2020 20:52:52.937 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:52:52.937 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:52.938 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:52:52.938 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:53.093 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:52:53.094 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:53.094 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:52:53.094 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:53.127 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:52:53.127 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:53.128 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:52:53.128 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:53.169 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:52:53.170 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:53.170 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:52:53.171 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:53.208 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:52:53.208 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:53.209 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:52:53.209 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:53.246 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:52:53.246 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:52:53.247 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:52:53.247 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:52:53.276 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7084e387, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@1ec29770, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@351ccd14, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@69ee5479, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@3ea10a18}
+16-May-2020 20:52:53.284 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 348ms
+16-May-2020 20:52:53.284 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=348 ms
+16-May-2020 20:52:53.397 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:52:53.539 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=9 ms
+16-May-2020 20:54:03.034 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:Report
+16-May-2020 20:54:03.166 DETALLADO [http-nio-8080-exec-9] org.openxava.web.dwr.DWRBase.request Tiempo petición=11 ms
+16-May-2020 20:54:05.382 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:54:05.416 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:54:05.427 DETALLADO [http-nio-8080-exec-8] org.openxava.tab.impl.TableModelBean.getRow nextChunk=11
+16-May-2020 20:54:05.439 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=60 ms
+16-May-2020 20:54:07.823 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 22ms
+16-May-2020 20:54:07.841 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=42 ms
+16-May-2020 20:54:22.593 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc601722056cf470020
+16-May-2020 20:54:22.616 INFORMACIÓN [http-nio-8080-exec-6] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff808181721ebcc60172203d0f620008
+16-May-2020 20:54:22.633 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 45ms
+16-May-2020 20:54:22.639 DETALLADO [http-nio-8080-exec-6] org.openxava.web.dwr.DWRBase.request Tiempo petición=51 ms
+16-May-2020 20:54:24.137 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 1ms
+16-May-2020 20:54:24.175 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:54:24.189 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=16
+16-May-2020 20:54:24.204 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=69 ms
+16-May-2020 20:54:28.450 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:54:28.563 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.fiscalMonthId, e.fiscalMonthId, e.name from FiscalMonth e con argumentos 
+16-May-2020 20:54:28.564 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+16-May-2020 20:54:28.566 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.fiscalYearId, e.fiscalYearId, e.name from FiscalYear e con argumentos 
+16-May-2020 20:54:28.567 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+16-May-2020 20:54:28.568 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.payrollTypeId, e.payrollTypeId, e.name from PayrollType e con argumentos 
+16-May-2020 20:54:28.569 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+16-May-2020 20:54:28.570 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=14 ms
+16-May-2020 20:54:30.991 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:54:30.992 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:54:30.993 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:54:30.993 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:54:31.108 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:54:31.109 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:54:31.110 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:54:31.110 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:54:31.144 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:54:31.145 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:54:31.145 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:54:31.146 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:54:31.187 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:54:31.188 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:54:31.188 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:54:31.189 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:54:31.223 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:54:31.224 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:54:31.224 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:54:31.224 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:54:31.249 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:54:31.250 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:54:31.250 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:54:31.250 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:54:31.276 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@588e645c, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@11b10c4b, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@74e3c982, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@60789edc, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@4bffaa0b}
+16-May-2020 20:54:31.283 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 293ms
+16-May-2020 20:54:31.283 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=295 ms
+16-May-2020 20:54:31.412 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:54:31.508 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=4 ms
+16-May-2020 20:55:41.283 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:Report
+16-May-2020 20:55:41.442 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:55:41.452 DETALLADO [http-nio-8080-exec-2] org.openxava.tab.impl.TableModelBean.getRow nextChunk=10
+16-May-2020 20:55:41.474 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=48 ms
+16-May-2020 20:55:44.245 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon List.viewDetail 111ms
+16-May-2020 20:55:44.282 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=149 ms
+16-May-2020 20:55:52.325 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.actions.report.ReportSaveAction.execute ******* NEW FILE: ff808181721ebcc6017220582ff00024
+16-May-2020 20:55:52.346 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.actions.report.ReportSaveAction.execute ******* REMOVE FILE (SOME NAME): ff808181721ebcc601722056cf470020
+16-May-2020 20:55:52.364 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon ReportController.save 44ms
+16-May-2020 20:55:52.366 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=48 ms
+16-May-2020 20:55:53.344 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon Mode.list 0ms
+16-May-2020 20:55:53.379 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.reportId, e.reportId, e.name, e.format, 0 from Report e WHERE upper(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(e.reportId, 'Ú', 'U'), 'ú', 'u'), 'Ó', 'O'), 'ó', 'o'), 'Í', 'I'), 'í', 'i'), 'É', 'E'), 'é', 'e'), 'Á', 'A'), 'á', 'a')) like :p0 con argumentos %ROL%
+16-May-2020 20:55:53.387 DETALLADO [http-nio-8080-exec-1] org.openxava.tab.impl.TableModelBean.getRow nextChunk=9
+16-May-2020 20:55:53.408 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=65 ms
+16-May-2020 20:55:55.814 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:55:55.913 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.fiscalMonthId, e.fiscalMonthId, e.name from FiscalMonth e con argumentos 
+16-May-2020 20:55:55.914 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+16-May-2020 20:55:55.916 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.fiscalYearId, e.fiscalYearId, e.name from FiscalYear e con argumentos 
+16-May-2020 20:55:55.918 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+16-May-2020 20:55:55.920 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.payrollTypeId, e.payrollTypeId, e.name from PayrollType e con argumentos 
+16-May-2020 20:55:55.921 DETALLADO [http-nio-8080-exec-4] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+16-May-2020 20:55:55.921 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=16 ms
+16-May-2020 20:55:58.506 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:55:58.507 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:55:58.507 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:55:58.507 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:55:58.580 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:55:58.580 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:55:58.581 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:55:58.581 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:55:58.607 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:55:58.607 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:55:58.608 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:55:58.608 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:55:58.635 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:55:58.635 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:55:58.636 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:55:58.636 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:55:58.663 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:55:58.664 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:55:58.664 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:55:58.665 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:55:58.692 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:55:58.692 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:55:58.693 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:55:58.693 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:55:58.718 INFORMACIÓN [http-nio-8080-exec-2] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@14c6e201, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@274e6c95, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@51b10954, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7493db51, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@57e6f928}
+16-May-2020 20:55:58.815 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 309ms
+16-May-2020 20:55:58.815 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=310 ms
+16-May-2020 20:55:58.902 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:55:59.016 DETALLADO [http-nio-8080-exec-2] org.openxava.web.dwr.DWRBase.request Tiempo petición=5 ms
+16-May-2020 20:56:26.375 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 20:56:26.377 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:56:26.377 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 20:56:26.377 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:56:26.486 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 20:56:26.486 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:56:26.487 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 20:56:26.487 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:56:26.520 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 20:56:26.521 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:56:26.522 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 20:56:26.522 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:56:26.546 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 20:56:26.547 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:56:26.547 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 20:56:26.547 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:56:26.570 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 20:56:26.571 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:56:26.571 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 20:56:26.571 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:56:26.595 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 20:56:26.595 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 20:56:26.595 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 20:56:26.596 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 20:56:26.618 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@658f156e, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@2dcb133d, FISCAL_MONTH=3, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7b955cbd, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7ea5df69, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@639c81b6}
+16-May-2020 20:56:26.629 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 254ms
+16-May-2020 20:56:26.629 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=255 ms
+16-May-2020 20:56:26.725 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 20:56:26.863 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=9 ms
+16-May-2020 21:04:53.999 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 21:04:54.000 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:04:54.000 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 21:04:54.000 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:04:54.077 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 21:04:54.077 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:04:54.078 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 21:04:54.078 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:04:54.114 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 21:04:54.115 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:04:54.115 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 21:04:54.115 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:04:54.144 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 21:04:54.144 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:04:54.145 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 21:04:54.145 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:04:54.171 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 21:04:54.171 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:04:54.171 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 21:04:54.172 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:04:54.198 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 21:04:54.199 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:04:54.199 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 21:04:54.199 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:04:54.222 INFORMACIÓN [http-nio-8080-exec-5] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@6169691a, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@3fe2a451, FISCAL_MONTH=3, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@563d70b7, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@3ea9c8e0, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@14225796}
+16-May-2020 21:04:54.232 DETALLADO [http-nio-8080-exec-5] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 234ms
+16-May-2020 21:04:54.233 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=236 ms
+16-May-2020 21:04:54.345 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 21:04:54.512 DETALLADO [http-nio-8080-exec-5] org.openxava.web.dwr.DWRBase.request Tiempo petición=11 ms
+16-May-2020 21:05:04.599 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 21:05:04.600 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:04.600 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 21:05:04.600 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:04.668 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 21:05:04.669 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:04.669 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 21:05:04.669 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:04.706 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 21:05:04.706 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:04.707 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 21:05:04.707 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:04.743 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 21:05:04.744 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:04.744 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 21:05:04.744 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:04.776 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 21:05:04.777 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:04.777 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 21:05:04.777 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:04.804 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 21:05:04.804 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:04.805 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 21:05:04.805 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:04.832 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@20c83195, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@5dc373f0, FISCAL_MONTH=10, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@54676005, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@8b8b48c, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@691d7897}
+16-May-2020 21:05:04.841 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 243ms
+16-May-2020 21:05:04.842 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=245 ms
+16-May-2020 21:05:04.959 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 21:05:05.082 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=7 ms
+16-May-2020 21:05:12.642 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 21:05:12.643 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:12.644 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 21:05:12.644 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:12.707 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 21:05:12.707 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:12.708 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 21:05:12.708 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:12.735 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 21:05:12.735 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:12.736 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 21:05:12.736 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:12.783 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 21:05:12.784 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:12.784 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 21:05:12.785 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:12.807 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 21:05:12.808 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:12.808 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 21:05:12.808 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:12.830 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 21:05:12.830 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:12.831 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 21:05:12.831 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:12.853 INFORMACIÓN [http-nio-8080-exec-4] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@60115a76, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=MEN, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@7a53aa7a, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@f8f5655, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@769be679, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@1c33c036}
+16-May-2020 21:05:12.931 DETALLADO [http-nio-8080-exec-4] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 290ms
+16-May-2020 21:05:12.931 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=292 ms
+16-May-2020 21:05:13.036 DETALLADO [http-nio-8080-exec-9] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 21:05:13.165 DETALLADO [http-nio-8080-exec-4] org.openxava.web.dwr.DWRBase.request Tiempo petición=11 ms
+16-May-2020 21:05:19.096 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 21:05:19.097 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:19.098 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 21:05:19.098 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:19.174 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: INGRESS_PAYMENT_ROL
+16-May-2020 21:05:19.175 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:19.175 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: ingress_payment_rol.jrxml
+16-May-2020 21:05:19.175 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:19.211 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: EGRESS_PAYMENT_ROL
+16-May-2020 21:05:19.212 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:19.212 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: egress_payment_rol.jrxml
+16-May-2020 21:05:19.212 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:19.240 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_INGRESS_PAYMENT_ROL
+16-May-2020 21:05:19.241 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:19.241 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_ingress_payment_rol.jrxml
+16-May-2020 21:05:19.241 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:19.271 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_EGRESS_PAYMENT_ROL
+16-May-2020 21:05:19.272 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:19.272 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_egress_payment_rol.jrxml
+16-May-2020 21:05:19.272 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:19.303 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: TOTAL_NETO_PAYMENT_ROL
+16-May-2020 21:05:19.303 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:05:19.303 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.getJRXML ######## FILE: total_neto_payment_rol.jrxml
+16-May-2020 21:05:19.303 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:05:19.325 INFORMACIÓN [http-nio-8080-exec-10] com.powerfin.util.report.ReportBaseAction.execute ######## PARAMETERS: {CURRENT_ACCOUNTING_DATE=2020-05-05, INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@893a975, SCHEMA=yalobox, ORG_NAME=YALOBOX SA, PAYROLL_TYPE=QUI, TOTAL_EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@24179a44, FISCAL_MONTH=4, USER=lramon, FISCAL_YEAR=2020, TOTAL_NETO_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@4258b13c, EGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@79a3ea9e, TOTAL_INGRESS_PAYMENT_ROL=net.sf.jasperreports.engine.JasperReport@6c6e2cde}
+16-May-2020 21:05:19.335 DETALLADO [http-nio-8080-exec-10] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 239ms
+16-May-2020 21:05:19.335 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=242 ms
+16-May-2020 21:05:19.418 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:PaymentRolePrinting
+16-May-2020 21:05:19.549 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=8 ms
+16-May-2020 21:06:21.845 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLES
+16-May-2020 21:06:21.846 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:06:21.846 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.getJRXML ######## FILE: payment_roles.jrxml
+16-May-2020 21:06:21.847 INFORMACIÓN [http-nio-8080-exec-8] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: EXCEL
+16-May-2020 21:06:21.899 GRAVE [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.manageRegularException El campo Mes Fiscal es Requerido
+ com.powerfin.exception.OperativeException: El campo Mes Fiscal es Requerido
+	at com.powerfin.actions.PaymentRolePrintingPrintAction.getParameters(PaymentRolePrintingPrintAction.java:30)
+	at com.powerfin.util.report.ReportBaseAction.execute(ReportBaseAction.java:59)
+	at org.openxava.controller.ModuleManager.executeAction(ModuleManager.java:568)
+	at org.openxava.controller.ModuleManager.executeAction(ModuleManager.java:485)
+	at org.openxava.controller.ModuleManager.execute(ModuleManager.java:443)
+	at org.apache.jsp.xava.execute_jsp._jspService(execute_jsp.java:266)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.openxava.web.servlets.Servlets.getURIAsStream(Servlets.java:72)
+	at org.openxava.web.dwr.Module.getURIAsStream(Module.java:261)
+	at org.openxava.web.dwr.Module.request(Module.java:64)
+	at sun.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+16-May-2020 21:06:21.901 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRolePrinting 57ms
+16-May-2020 21:06:21.903 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=60 ms
+16-May-2020 21:06:27.259 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT TO SEARCH: PAYMENT_ROLE
+16-May-2020 21:06:27.260 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FROM CURRENT SCHEMA
+16-May-2020 21:06:27.260 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.getJRXML ######## FILE: payment_role.jrxml
+16-May-2020 21:06:27.261 INFORMACIÓN [http-nio-8080-exec-1] com.powerfin.model.Report.findReportByName ######## REPORT FORMAT: PDF
+16-May-2020 21:06:27.331 GRAVE [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.manageRegularException El campo Mes Fiscal es Requerido
+ com.powerfin.exception.OperativeException: El campo Mes Fiscal es Requerido
+	at com.powerfin.actions.PaymentRoleByPersonPrintAction.getParameters(PaymentRoleByPersonPrintAction.java:30)
+	at com.powerfin.util.report.ReportBaseAction.execute(ReportBaseAction.java:59)
+	at org.openxava.controller.ModuleManager.executeAction(ModuleManager.java:568)
+	at org.openxava.controller.ModuleManager.executeAction(ModuleManager.java:485)
+	at org.openxava.controller.ModuleManager.execute(ModuleManager.java:443)
+	at org.apache.jsp.xava.execute_jsp._jspService(execute_jsp.java:266)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:580)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:516)
+	at org.openxava.web.servlets.Servlets.getURIAsStream(Servlets.java:72)
+	at org.openxava.web.dwr.Module.getURIAsStream(Module.java:261)
+	at org.openxava.web.dwr.Module.request(Module.java:64)
+	at sun.reflect.GeneratedMethodAccessor94.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.directwebremoting.impl.ExecuteAjaxFilter.doFilter(ExecuteAjaxFilter.java:34)
+	at org.directwebremoting.impl.DefaultRemoter$1.doFilter(DefaultRemoter.java:428)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:431)
+	at org.directwebremoting.impl.DefaultRemoter.execute(DefaultRemoter.java:283)
+	at org.directwebremoting.servlet.PlainCallHandler.handle(PlainCallHandler.java:52)
+	at org.directwebremoting.servlet.UrlProcessor.handle(UrlProcessor.java:101)
+	at org.directwebremoting.servlet.DwrServlet.doPost(DwrServlet.java:146)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:668)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:791)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+16-May-2020 21:06:27.332 DETALLADO [http-nio-8080-exec-1] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon PrintRole.printPaymentRoleByPerson 73ms
+16-May-2020 21:06:27.334 DETALLADO [http-nio-8080-exec-1] org.openxava.web.dwr.DWRBase.request Tiempo petición=76 ms

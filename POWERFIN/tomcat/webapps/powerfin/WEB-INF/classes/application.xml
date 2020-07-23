@@ -1,0 +1,1648 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?><!DOCTYPE application SYSTEM "dtds/application.dtd">
+<application name="powerfin">
+	<default-module>
+		<controller name="AppDefaultModule" />
+		<mode-controller name="DetailList" />
+	</default-module>
+	<module name="Report">
+		<model name="Report" />
+		<controller name="ReportController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AccountingReport">
+		<model name="ViewAccountingReport" />
+		<controller name="AccountingReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="AccountingReportByBookAccount">
+		<model name="ViewAccountingReportByBookAccount" />
+		<controller name="AccountingReportControllerByBookAccount" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="BalanceAccountingGenerate">
+		<model name="BalanceAccountingGenerate" />
+		<controller name="BalanceAccountingGenerateController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="AccountingLedger">
+		<model name="AccountingLedger" />
+		<controller name="AccountingLedgerController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="OriginationPortfolioReport">
+		<model name="ViewOriginationPortfolioReport" />
+		<controller name="OriginationPortfolioReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="PayableReport">
+		<model name="ViewPayableReport" />
+		<controller name="PayableReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="LoanReport">
+		<model name="ViewLoanReport" />
+		<controller name="LoanReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="TermReport">
+		<model name="ViewTermReport" />
+		<controller name="TermReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="PurchasePortfolioReport">
+		<model name="ViewPurchasePortfolioReport" />
+		<controller name="PurchasePortfolioReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="SalePortfolioReport">
+		<model name="ViewSalePortfolioReport" />
+		<controller name="SalePortfolioReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="AccountPayableMovement">
+		<model name="ViewAccountMovement" />
+		<controller name="AccountMovementController" />
+		<view name="ViewAccountPayableMovement" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="AccountMovement">
+		<model name="ViewAccountMovement" />
+		<controller name="AccountMovementController" />
+		<view name="ViewAccountMovement" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="NewExchangeRateDaily">
+		<model name="ExchangeRateDaily" />
+		<controller name="ExchangeRateDailyController" />
+		<mode-controller name="DetailList" />
+		<view name="NewExchangeRateDaily" />
+	</module>
+	<module name="AuthorizeTXInBatch">
+		<env-var name="XAVA_LIST_ACTION"
+			value="AuthorizeTXInBatchController.authorize" />
+		<model name="Transaction" />
+		<controller name="AuthorizeTXInBatchController" />
+		<tab name="TXInBatch" />
+		<mode-controller name="ListOnly" />
+	</module>
+	<!-- BEGIN TXOpening ######################################## -->
+	<module name="RequestTXOpening">
+		<model name="Transaction" />
+		<controller name="RequestTXOpeningController" />
+		<view name="RequestTXOpening" />
+		<tab name="TXOpening" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXOpening">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXOpeningController" />
+		<view name="AuthorizeTXOpening" />
+		<tab name="TXOpening" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXOpening ######################################## -->
+	<!-- BEGIN TXTransferSent ######################################## -->
+	<module name="RequestTXTransferSent">
+		<model name="Transaction" />
+		<controller name="RequestTXTransferSentController" />
+		<view name="RequestTXTransferSent" />
+		<tab name="TXTransferSent" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXTransferSent">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransferSentController" />
+		<view name="AuthorizeTXTransferSent" />
+		<tab name="TXTransferSent" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferSent ######################################## -->
+	<!-- BEGIN TXTransferReceived ######################################## -->
+	<module name="RequestTXTransferReceived">
+		<model name="Transaction" />
+		<controller name="RequestTXTransferReceivedController" />
+		<view name="RequestTXTransferReceived" />
+		<tab name="TXTransferReceived" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXTransferReceived">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransferReceivedController" />
+		<view name="AuthorizeTXTransferReceived" />
+		<tab name="TXTransferReceived" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferReceived ######################################## -->
+	<!-- BEGIN InvoicePurchase ######################################## -->
+	<module name="ConsultInvoicePurchase">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountInvoice" />
+		<controller name="ConsultInvoicePurchaseController" />
+		<controller name="ExtendedPrint" />
+		<view name="InvoicePurchase" />
+		<tab name="InvoicePurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END InvoicePurchase ######################################## -->
+	<!-- BEGIN PurchaseInvoiceReport ######################################## -->
+	<module name="PurchaseInvoiceReport">
+		<model name="ViewAccountInvoiceReport" />
+		<controller name="PurchaseInvoiceReportController" />
+		<view name="PurchaseInvoiceReport" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<!-- END InvoicePurchase ######################################## -->
+	<!-- BEGIN InvoiceSale ######################################## -->
+	<module name="ConsultInvoiceSale">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountInvoice" />
+		<controller name="ConsultInvoiceSaleController" />
+		<controller name="ExtendedPrint" />
+		<view name="InvoiceSale" />
+		<tab name="InvoiceSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END InvoicePurchase ######################################## -->
+	<!-- BEGIN ConsultSaleInvoice ######################################## -->
+	<module name="SaleInvoiceReport">
+		<model name="ViewAccountInvoiceReport" />
+		<controller name="SaleInvoiceReportController" />
+		<view name="SaleInvoiceReport" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<!-- END InvoicePurchase ######################################## -->
+	<module name="SalesReportPrint">
+		<model name="ViewSalesReport" />
+		<controller name="SaleReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<!-- BEGIN BarCodeReportPrint ######################################## -->
+	<module name="BarCodeReportPrint">
+		<model name="ViewBarcodeReport" />
+		<controller name="BarCodeReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<!-- END BarCodeReportPrint ######################################## -->
+	<!-- BEGIN AccountBank ######################################## -->
+	<module name="NewAccountBank">
+		<model name="AccountBank" />
+		<controller name="NewAccountBankController" />
+		<controller name="ExtendedPrint" />
+		<view name="NewAccountBank" />
+		<tab name="NewAccountBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END AccountBank ######################################## -->
+	<!-- BEGIN AccountPayable ######################################## -->
+	<module name="NewAccountPayable">
+		<model name="AccountPayable" />
+		<controller name="NewAccountPayableController" />
+		<controller name="ExtendedPrint" />
+		<view name="NewAccountPayable" />
+		<tab name="NewAccountPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AccountPayableList">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountPayable" />
+		<controller name="AccountPayableListController" />
+		<controller name="ExtendedPrint" />
+		<view name="AccountPayableList" />
+		<tab name="AccountPayableList" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END AccountPayable ######################################## -->
+	<!-- BEGIN AccountAccountant ######################################## -->
+	<module name="NewAccountAccountant">
+		<model name="AccountAccountant" />
+		<controller name="NewAccountAccountantController" />
+		<controller name="ExtendedPrint" />
+		<view name="NewAccountAccountant" />
+		<tab name="NewAccountAccountant" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END AccountAccountant ######################################## -->
+	<!-- BEGIN Person ######################################## -->
+	<module name="NaturalPerson">
+		<model name="NaturalPerson" />
+		<controller name="NaturalPersonController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="LegalPerson">
+		<model name="LegalPerson" />
+		<controller name="LegalPersonController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="Person">
+		<model name="Person" />
+		<controller name="PersonController" />
+		<controller name="ExtendedPrint" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="UpdateCreditLimit">
+		<model name="Person" />
+		<view name="UpdateCreditLimit" />
+		<controller name="CRUD" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="UpdatePriceList">
+		<model name="Person" />
+		<view name="UpdatePriceList" />
+		<controller name="CRUD" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="RemoveFingerprint">
+		<model name="Person" />
+		<view name="RemoveFingerprint" />
+		<controller name="CRUD" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="PersonList">
+		<model name="Person" />
+		<controller name="PersonListController" />
+		<controller name="ExtendedPrint" />
+		<view name="PersonList" />
+		<tab name="PersonList" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END Person ######################################## -->
+	<!-- BEGIN TransactionList ######################################## -->
+	<module name="TransactionList">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="Transaction" />
+		<controller name="TransactionListController" />
+		<controller name="ExtendedPrint" />
+		<view name="TransactionList" />
+		<tab name="TransactionList" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TransactionList ######################################## -->
+	<!-- BEGIN TXInvoicePurchase ######################################## -->
+	<module name="RequestTXInvoicePurchase">
+		<model name="AccountInvoice" />
+		<controller name="RequestTXInvoicePurchaseController" />
+		<view name="RequestTXInvoicePurchase" />
+		<tab name="TXInvoicePurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXInvoicePurchase">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXInvoicePurchaseController" />
+		<view name="AuthorizeTXInvoicePurchase" />
+		<tab name="TXInvoicePurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXInvoicePurchase ######################################## -->
+	<!-- BEGIN TXRetentionPurchase ######################################## -->
+	<module name="RequestTXRetentionPurchase">
+		<model name="AccountRetention" />
+		<controller name="RequestTXRetentionPurchaseController" />
+		<view name="RequestTXRetentionPurchase" />
+		<tab name="TXRetentionPurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="IssueElectronicRetentionPurchase">
+		<model name="AccountRetention" />
+		<controller
+			name="IssueElectronicRetentionPurchaseController" />
+		<view name="IssueElectronicRetentionPurchase" />
+		<tab name="IssueElectronicRetentionPurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXRetentionPurchase">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXRetentionPurchaseController" />
+		<view name="AuthorizeTXRetentionPurchase" />
+		<tab name="TXRetentionPurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXRetentionPurchase ######################################## -->
+	<!-- BEGIN TXCreditNotePurchase ######################################## -->
+	<module name="RequestTXCreditNotePurchase">
+		<model name="AccountInvoice" />
+		<controller name="RequestTXCreditNotePurchaseController" />
+		<view name="RequestTXCreditNotePurchase" />
+		<tab name="TXCreditNotePurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCreditNotePurchase">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCreditNotePurchaseController" />
+		<view name="AuthorizeTXCreditNotePurchase" />
+		<tab name="TXCreditNotePurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXCreditNotePurchase ######################################## -->
+	<!-- BEGIN TXInvoiceSale ######################################## -->
+	<module name="RequestTXInvoiceSale">
+		<model name="AccountInvoice" />
+		<controller name="RequestTXInvoiceSaleController" />
+		<view name="RequestTXInvoiceSale" />
+		<tab name="TXInvoiceSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="IssueElectronicInvoiceSale">
+		<model name="AccountInvoice" />
+		<controller name="IssueElectronicInvoiceSaleController" />
+		<view name="IssueElectronicInvoiceSale" />
+		<tab name="IssueElectronicInvoiceSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXInvoiceSale">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXInvoiceSaleController" />
+		<view name="AuthorizeTXInvoiceSale" />
+		<tab name="TXInvoiceSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXInvoiceSale ######################################## -->
+	<!-- BEGIN TXRetentionSale ######################################## -->
+	<module name="RequestTXRetentionSale">
+		<model name="AccountRetention" />
+		<controller name="RequestTXRetentionSaleController" />
+		<view name="RequestTXRetentionSale" />
+		<tab name="TXRetentionSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXRetentionSale">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXRetentionSaleController" />
+		<view name="AuthorizeTXRetentionSale" />
+		<tab name="TXRetentionSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXRetentionSale ######################################## -->
+	<!-- BEGIN TXCreditNoteSale ######################################## -->
+	<module name="RequestTXCreditNoteSale">
+		<model name="AccountInvoice" />
+		<controller name="RequestTXCreditNoteSaleController" />
+		<view name="RequestTXCreditNoteSale" />
+		<tab name="TXCreditNoteSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCreditNoteSale">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCreditNoteSaleController" />
+		<view name="AuthorizeTXCreditNoteSale" />
+		<tab name="TXCreditNoteSale" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXCreditNoteSale ######################################## -->
+	<!-- BEGIN TXDebitBank ######################################## -->
+	<module name="RequestTXDebitBank">
+		<model name="Transaction" />
+		<controller name="RequestTXDebitBankController" />
+		<view name="RequestTXDebitBank" />
+		<tab name="TXDebitBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXDebitBank">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXDebitBankController" />
+		<view name="AuthorizeTXDebitBank" />
+		<tab name="TXDebitBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferSent ######################################## -->
+	<!-- BEGIN TXCreditBank ######################################## -->
+	<module name="RequestTXCreditBank">
+		<model name="Transaction" />
+		<controller name="RequestTXCreditBankController" />
+		<view name="RequestTXCreditBank" />
+		<tab name="TXCreditBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCreditBank">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCreditBankController" />
+		<view name="AuthorizeTXCreditBank" />
+		<tab name="TXCreditBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXCreditBank ######################################## -->
+	<!-- BEGIN TXCreditPayable ######################################## -->
+	<module name="RequestTXCreditPayable">
+		<model name="Transaction" />
+		<controller name="RequestTXCreditPayableController" />
+		<view name="RequestTXCreditPayable" />
+		<tab name="TXCreditPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCreditPayable">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCreditPayableController" />
+		<view name="AuthorizeTXCreditPayable" />
+		<tab name="TXCreditPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXCreditPayable ######################################## -->
+	<!-- BEGIN TXDebitPayable ######################################## -->
+	<module name="RequestTXDebitPayable">
+		<model name="Transaction" />
+		<controller name="RequestTXDebitPayableController" />
+		<view name="RequestTXDebitPayable" />
+		<tab name="TXDebitPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXDebitPayable">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXDebitPayableController" />
+		<view name="AuthorizeTXDebitPayable" />
+		<tab name="TXDebitPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXDebitPayable ######################################## -->
+	<!-- BEGIN TXTransferPayable ######################################## -->
+	<module name="RequestTXTransferPayable">
+		<model name="Transaction" />
+		<controller name="RequestTXTransferPayableController" />
+		<view name="RequestTXTransferPayable" />
+		<tab name="TXTransferPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXTransferPayable">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransferPayableController" />
+		<view name="AuthorizeTXTransferPayable" />
+		<tab name="TXTransferPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferPayable ######################################## -->
+	<!-- BEGIN TXTransferBank ######################################## -->
+	<module name="RequestTXTransferBank">
+		<model name="Transaction" />
+		<controller name="RequestTXTransferBankController" />
+		<view name="RequestTXTransferBank" />
+		<tab name="TXTransferBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXTransferBank">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransferBankController" />
+		<view name="AuthorizeTXTransferBank" />
+		<tab name="TXTransferBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferBank ######################################## -->
+	<!-- BEGIN TXAdvance ######################################## -->
+	<module name="RequestTXAdvance">
+		<model name="Transaction" />
+		<controller name="RequestTXAdvanceController" />
+		<view name="RequestTXAdvance" />
+		<tab name="TXAdvance" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXAdvance">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXAdvanceController" />
+		<view name="AuthorizeTXAdvance" />
+		<tab name="TXAdvance" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXAdvance ######################################## -->
+	<!-- BEGIN TXAdvancePayment ######################################## -->
+	<module name="RequestTXAdvancePayment">
+		<model name="Transaction" />
+		<controller name="RequestTXAdvancePaymentController" />
+		<view name="RequestTXAdvancePayment" />
+		<tab name="TXAdvancePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXAdvancePayment">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXAdvancePaymentController" />
+		<view name="AuthorizeTXAdvancePayment" />
+		<tab name="TXAdvancePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXAdvancePayment ######################################## -->
+	<!-- BEGIN TXThirdAdvancePayment ######################################## -->
+	<module name="RequestTXThirdAdvancePayment">
+		<model name="Transaction" />
+		<controller name="RequestTXThirdAdvancePaymentController" />
+		<view name="RequestTXThirdAdvancePayment" />
+		<tab name="TXThirdAdvancePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXThirdAdvancePayment">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXThirdAdvancePaymentController" />
+		<view name="AuthorizeTXThirdAdvancePayment" />
+		<tab name="TXThirdAdvancePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXThirdAdvancePayment ######################################## -->
+	<!-- BEGIN TXManualAccountingEntry ######################################## -->
+	<module name="RequestTXManualAccountingEntry">
+		<model name="Transaction" />
+		<controller name="RequestTXManualAccountingEntryController" />
+		<view name="RequestTXManualAccountingEntry" />
+		<tab name="TXManualAccountingEntry" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXManualAccountingEntry">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXManualAccountingEntryController" />
+		<view name="AuthorizeTXManualAccountingEntry" />
+		<tab name="TXManualAccountingEntry" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXManualAccountingEntry ######################################## -->
+	<!-- BEGIN TXInvoiceSalePayment ######################################## -->
+	<module name="RequestTXInvoiceSalePayment">
+		<model name="Transaction" />
+		<controller name="RequestTXInvoiceSalePaymentController" />
+		<view name="RequestTXInvoiceSalePayment" />
+		<tab name="TXInvoiceSalePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXInvoiceSalePayment">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXInvoiceSalePaymentController" />
+		<view name="AuthorizeTXInvoiceSalePayment" />
+		<tab name="TXInvoiceSalePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXInvoiceSalePayment ######################################## -->
+	<!-- BEGIN TXTransferDue ######################################## -->
+	<module name="RequestTXTransferDue">
+		<model name="Transaction" />
+		<controller name="RequestTXTransferDueController" />
+		<view name="RequestTXTransferDue" />
+		<tab name="TXTransferDue" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXTransferDue">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransferDueController" />
+		<view name="AuthorizeTXTransferDue" />
+		<tab name="TXTransferDue" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferDue ######################################## -->
+	<!-- BEGIN TXInvoicePurchasePayment ######################################## -->
+	<module name="RequestTXInvoicePurchasePayment">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXInvoicePurchasePaymentController" />
+		<view name="RequestTXInvoicePurchasePayment" />
+		<tab name="TXInvoicePurchasePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXInvoicePurchasePayment">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXInvoicePurchasePaymentController" />
+		<view name="AuthorizeTXInvoicePurchasePayment" />
+		<tab name="TXInvoicePurchasePayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXInvoicePurchasePayment ######################################## -->
+	<!-- BEGIN TXInvoicePurchaseCheckPayment ######################################## -->
+	<module name="RequestTXInvoicePurchaseCheckPayment">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXInvoicePurchaseCheckPaymentController" />
+		<view name="RequestTXInvoicePurchaseCheckPayment" />
+		<tab name="TXInvoicePurchaseCheckPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXInvoicePurchaseCheckPayment">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXInvoicePurchaseCheckPaymentController" />
+		<view name="AuthorizeTXInvoicePurchaseCheckPayment" />
+		<tab name="TXInvoicePurchaseCheckPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXInvoicePurchaseCheckPayment ######################################## -->
+	<!-- BEGIN TXCheckPaymentPayable ######################################## -->
+	<module name="RequestTXCheckPaymentPayable">
+		<model name="Transaction" />
+		<controller name="RequestTXCheckPaymentPayableController" />
+		<view name="RequestTXCheckPaymentPayable" />
+		<tab name="TXCheckPaymentPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCheckPaymentPayable">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCheckPaymentPayableController" />
+		<view name="AuthorizeTXCheckPaymentPayable" />
+		<tab name="TXCheckPaymentPayable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXCheckPaymentPayable ######################################## -->
+	<!-- BEGIN TXGeneral ######################################## -->
+	<module name="RequestTXGeneral">
+		<model name="Transaction" />
+		<controller name="RequestTXGeneralController" />
+		<view name="RequestTXGeneral" />
+		<tab name="TXGeneral" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXGeneral">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXGeneralController" />
+		<view name="AuthorizeTXGeneral" />
+		<tab name="TXGeneral" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXGeneral ######################################## -->
+	<!-- BEGIN TXAccountTerm ######################################## -->
+	<module name="RequestTXAccountTerm">
+		<model name="AccountTerm" />
+		<controller name="RequestTXAccountTermController" />
+		<view name="RequestTXAccountTerm" />
+		<tab name="RequestTXAccountTerm" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXAccountTerm">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXAccountTermController" />
+		<view name="AuthorizeTXAccountTerm" />
+		<tab name="TXAccountTerm" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXAccountTerm ######################################## -->
+	<!-- BEGIN TXLoan ######################################## -->
+	<module name="RequestTXAccountLoan">
+		<model name="AccountLoan" />
+		<controller name="RequestTXAccountLoanController" />
+		<view name="RequestTXAccountLoan" />
+		<tab name="TXAccountLoan" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="PrintDocumentsAccountLoan">
+		<model name="AccountLoan" />
+		<controller name="PrintDocumentsAccountLoanController" />
+		<view name="PrintDocumentsAccountLoan" />
+		<tab name="PrintDocumentsAccountLoan" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXAccountLoan">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXAccountLoanController" />
+		<view name="AuthorizeTXAccountLoan" />
+		<tab name="TXAccountLoan" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXLoan ######################################## -->
+	<!-- BEGIN TXPurchaseForexCustomer ######################################## -->
+	<module name="RequestTXPurchaseForexCustomer">
+		<model name="Transaction" />
+		<controller name="RequestTXPurchaseForexCustomerController" />
+		<view name="RequestTXPurchaseForexCustomer" />
+		<tab name="TXPurchaseForexCustomer" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXPurchaseForexCustomer">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXPurchaseForexCustomerController" />
+		<view name="AuthorizeTXPurchaseForexCustomer" />
+		<tab name="TXPurchaseForexCustomer" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXPurchaseForexCustomer ######################################## -->
+	<!-- BEGIN TXSaleForexCustomer ######################################## -->
+	<module name="RequestTXSaleForexCustomer">
+		<model name="Transaction" />
+		<controller name="RequestTXSaleForexCustomerController" />
+		<view name="RequestTXSaleForexCustomer" />
+		<tab name="TXSaleForexCustomer" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXSaleForexCustomer">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXSaleForexCustomerController" />
+		<view name="AuthorizeTXSaleForexCustomer" />
+		<tab name="TXSaleForexCustomer" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXSaleForexCustomer ######################################## -->
+	<!-- BEGIN TXPurchaseForexBank ######################################## -->
+	<module name="RequestTXPurchaseForexBank">
+		<model name="Transaction" />
+		<controller name="RequestTXPurchaseForexBankController" />
+		<view name="RequestTXPurchaseForexBank" />
+		<tab name="TXPurchaseForexBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXPurchaseForexBank">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXPurchaseForexBankController" />
+		<view name="AuthorizeTXPurchaseForexBank" />
+		<tab name="TXPurchaseForexBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXPurchaseForexBank ######################################## -->
+	<!-- BEGIN TXSaleForexBank ######################################## -->
+	<module name="RequestTXSaleForexBank">
+		<model name="Transaction" />
+		<controller name="RequestTXSaleForexBankController" />
+		<view name="RequestTXSaleForexBank" />
+		<tab name="TXSaleForexBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXSaleForexBank">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXSaleForexBankController" />
+		<view name="AuthorizeTXSaleForexBank" />
+		<tab name="TXSaleForexBank" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXSaleForexBank ######################################## -->
+	<!-- BEGIN Negotiation ######################################## -->
+	<module name="NewNegotiation">
+		<model name="Negotiation" />
+		<controller name="NewNegotiationController" />
+		<tab name="NewNegotiation" />
+		<view name="NewNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ProcessPurchaseNegotiation">
+		<model name="Negotiation" />
+		<controller
+			name="ProcessPurchaseNegotiationButtonBarController" />
+		<controller
+			name="ProcessPurchaseNegotiationTopBarController" />
+		<tab name="ProcessPurchaseNegotiation" />
+		<view name="ProcessPurchaseNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ProcessOriginationNegotiation">
+		<model name="Negotiation" />
+		<controller
+			name="ProcessPurchaseNegotiationButtonBarController" />
+		<controller
+			name="ProcessPurchaseNegotiationTopBarController" />
+		<tab name="ProcessOriginationNegotiation" />
+		<view name="ProcessOriginationNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultAccountLoan">
+		<model name="AccountLoan" />
+		<controller name="ConsultAccountLoanController" />
+		<tab name="ConsultAccountLoan" />
+		<view name="ConsultAccountLoan" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultAccountTerm">
+		<model name="AccountTerm" />
+		<controller name="ConsultAccountTermController" />
+		<tab name="ConsultAccountTerm" />
+		<view name="ConsultAccountTerm" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultOriginationPortfolio">
+		<model name="AccountLoan" />
+		<controller name="ConsultOriginationPortfolioController" />
+		<tab name="ConsultOriginationPortfolio" />
+		<view name="ConsultOriginationPortfolio" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultPurchasePortfolio">
+		<model name="AccountLoan" />
+		<controller name="ConsultPurchasePortfolioController" />
+		<tab name="ConsultPurchasePortfolio" />
+		<view name="ConsultPurchasePortfolio" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultSalePortfolio">
+		<model name="AccountLoan" />
+		<controller name="ConsultSalePortfolioController" />
+		<tab name="ConsultSalePortfolio" />
+		<view name="ConsultSalePortfolio" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultOriginationNegotiation">
+		<model name="Negotiation" />
+		<controller name="ConsultOriginationNegotiationController" />
+		<tab name="ConsultOriginationNegotiation" />
+		<view name="ConsultOriginationNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultPurchaseNegotiation">
+		<model name="Negotiation" />
+		<controller name="ConsultPurchaseNegotiationController" />
+		<tab name="ConsultPurchaseNegotiation" />
+		<view name="ConsultPurchaseNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ProcessSaleNegotiation">
+		<model name="Negotiation" />
+		<controller
+			name="ProcessSaleNegotiationButtonBarController" />
+		<controller name="ProcessSaleNegotiationTopBarController" />
+		<tab name="ProcessSaleNegotiation" />
+		<view name="ProcessSaleNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultSaleNegotiation">
+		<model name="Negotiation" />
+		<controller name="ConsultSaleNegotiationController" />
+		<tab name="ConsultSaleNegotiation" />
+		<view name="ConsultSaleNegotiation" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END Negotiation ######################################## -->
+	<!-- BEGIN AccountingClosingDay ######################################## -->
+	<module name="AccountingClosingDay">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="Company" />
+		<controller name="AccountingClosingDayController" />
+		<view name="AccountingClosingDay" />
+		<tab name="AccountingClosingDay" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END AccountingClosingDay ######################################## -->
+	<!-- BEGIN BatchProcess ######################################## -->
+	<module name="ExecuteBatchProcess">
+		<model name="BatchProcess" />
+		<controller name="ExecuteBatchProcessController" />
+		<view name="Execute" />
+		<tab name="Execute" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END BatchProcess ######################################## -->
+	<!-- BEGIN TXPurchasePortfolioPayment ######################################## -->
+	<module name="RequestTXPurchasePortfolioPayment">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXPurchasePortfolioPaymentController" />
+		<view name="RequestTXPurchasePortfolioPayment" />
+		<tab name="TXPurchasePortfolioPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXPurchasePortfolioPayment">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXPurchasePortfolioPaymentController" />
+		<view name="AuthorizeTXPurchasePortfolioPayment" />
+		<tab name="TXPurchasePortfolioPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="RequestTXPurchasePortfolioPrepayment">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXPurchasePortfolioPrepaymentController" />
+		<view name="RequestTXPurchasePortfolioPrepayment" />
+		<tab name="TXPurchasePortfolioPrepayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXPurchasePortfolioPrepayment">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXPurchasePortfolioPrepaymentController" />
+		<view name="AuthorizeTXPurchasePortfolioPrepayment" />
+		<tab name="TXPurchasePortfolioPrepayment" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="RequestTXPurchasePortfolioPrepaymentValueDate">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXPurchasePortfolioPrepaymentValueDateController" />
+		<view name="RequestTXPurchasePortfolioPrepaymentValueDate" />
+		<tab name="TXPurchasePortfolioPrepaymentValueDate" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXPurchasePortfolioPrepaymentValueDate">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXPurchasePortfolioPrepaymentValueDateController" />
+		<view name="AuthorizeTXPurchasePortfolioPrepaymentValueDate" />
+		<tab name="TXPurchasePortfolioPrepaymentValueDate" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<!-- END TXPurchasePortfolioPayment ######################################## -->
+	<!-- BEGIN TXPurchasePortfolioPaymentValueDate ######################################## -->
+	<module name="RequestTXPurchasePortfolioPaymentValueDate">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXPurchasePortfolioPaymentValueDateController" />
+		<view name="RequestTXPurchasePortfolioPaymentValueDate" />
+		<tab name="TXPurchasePortfolioPaymentValueDate" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXPurchasePortfolioPaymentValueDate">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXPurchasePortfolioPaymentValueDateController" />
+		<view name="AuthorizeTXPurchasePortfolioPaymentValueDate" />
+		<tab name="TXPurchasePortfolioPaymentValueDate" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXPurchasePortfolioPaymentValueDate ######################################## -->
+	<!-- BEGIN TXSalePortfolioPayment ######################################## -->
+	<module name="RequestTXSalePortfolioPayment">
+		<model name="Transaction" />
+		<controller name="RequestTXSalePortfolioPaymentController" />
+		<view name="RequestTXSalePortfolioPayment" />
+		<tab name="TXSalePortfolioPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXSalePortfolioPayment">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXSalePortfolioPaymentController" />
+		<view name="AuthorizeTXSalePortfolioPayment" />
+		<tab name="TXSalePortfolioPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXSalePortfolioPayment ######################################## -->
+	<!-- BEGIN TXLoanPayment ######################################## -->
+	<module name="RequestTXLoanPayment">
+		<model name="Transaction" />
+		<controller name="RequestTXLoanPaymentController" />
+		<view name="RequestTXLoanPayment" />
+		<tab name="TXLoanPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXLoanPayment">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXLoanPaymentController" />
+		<view name="AuthorizeTXLoanPayment" />
+		<tab name="TXLoanPayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXPurchasePortfolioPayment ######################################## -->
+	<!-- BEGIN TransactionBatch ######################################## -->
+	<module name="NewTransactionBatch">
+		<model name="TransactionBatch" />
+		<controller name="NewTransactionBatchController" />
+		<view name="NewTransactionBatch" />
+		<tab name="NewTransactionBatch" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ProcessTransactionBatch">
+		<model name="TransactionBatch" />
+		<controller name="ProcessTransactionBatchController" />
+		<view name="ProcessTransactionBatch" />
+		<tab name="ProcessTransactionBatch" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultTransactionBatch">
+		<model name="TransactionBatch" />
+		<view name="ConsultTransactionBatch" />
+		<tab name="ConsultTransactionBatch" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TransactionBatch ######################################## -->
+	<module name="AccountItem">
+		<model name="AccountItem" />
+		<!--view name="Inventory"/ -->
+		<controller name="AccountItemController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultAccountItem">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountItem" />
+		<controller name="ConsultAccountItemController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="InventoryControl">
+		<model name="ViewInventoryControl" />
+		<controller name="InventoryControlController" />
+		<view name="ViewInventoryControl" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<module name="ViewDownloadInvoicePrestashop">
+		<model name="ViewDownloadInvoice" />
+		<controller name="DownloadInvoicePrestashopController" />
+		<view name="ViewDownloadInvoicePrestashop" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<module name="PrinterInvoiceSale">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountInvoice" />
+		<controller name="InvoiceSaleListController" />
+		<controller name="PrinterInvoiceController" />
+		<view name="PrintTXInvoiceSale" />
+		<tab name="PrinterInvoiceSale" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="InvoiceActiveReport">
+		<model name="ViewAccountInvoiceReportActive" />
+		<controller name="InvoiceActiveReportController" />
+		<view name="InvoiceActiveReport" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<module name="AccountItemLots">
+		<model name="AccountItemLots" />
+		<controller name="AccountItemLotsQuantities" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="AccountItemLotsReport">
+		<model name="ViewAccountItemLots" />
+		<view name="AccountItemLotsReport" />
+		<controller name="AccountItemLotsReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<module name="ViewAccountInvoiceReportPerson">
+		<model name="ViewAccountInvoiceReportPerson" />
+		<controller name="InvoicePersonReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<module name="RequestTXOrderItems">
+		<model name="AccountInvoice" />
+		<controller name="RequestTXOrderPurchaseController" />
+		<view name="RequestTXOrderItems" />
+		<tab name="TXOrderItems" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="AuthorizeTXOrderItems">
+		<model name="AccountInvoice" />
+		<controller name="RequestTXOrderPurchaseController" />
+		<view name="AuthorizeTXOrderItems" />
+		<tab name="TXOrderItems" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="ConvertOrderToInvoice">
+		<model name="AccountInvoice" />
+		<controller name="ConvertOrderToInvoiceController" />
+		<view name="TXOrderToInvoice" />
+		<tab name="TXConvertOrderToInvoice" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="ConvertInvoicePurchaseToSale">
+		<model name="AccountInvoice" />
+		<controller name="ConvertInvoicePurchaseToSale" />
+		<view name="TXOrderToInvoice" />
+		<tab name="TXConvertInvoicePurchaseToSale" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="ChangeBranch">
+		<model name="BranchUser" />
+		<controller name="ChangeBranchController" />
+		<view name="ChangeBranch" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="NewUserBranch">
+		<model name="BranchUser" />
+		<controller name="NewUserBranchController" />
+		<view name="NewUserBranch" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<!-- BEGIN TXTransferItem ######################################## -->
+	<module name="RequestTXTransferItem">
+		<model name="Transaction" />
+		<controller name="RequestTXTransferItemController" />
+		<view name="RequestTXTransferItem" />
+		<tab name="TXTransferItem" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXTransferItem">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransferItemController" />
+		<view name="AuthorizeTXTransferItem" />
+		<tab name="TXTransferItem" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXTransferItem ######################################## -->
+
+	<!-- BEGIN TXConversionItem ######################################## -->
+	<module name="RequestTXConversionItem">
+		<model name="Transaction" />
+		<controller name="RequestTXConversionItemController" />
+		<view name="RequestTXConversionItem" />
+		<tab name="TXConversionItem" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXConversionItem">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXConversionItemController" />
+		<view name="AuthorizeTXConversionItem" />
+		<tab name="TXConversionItem" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXConversionItem ######################################## -->
+
+	<!-- BEGIN Backup ######################################## -->
+	<module name="Backup">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="Company" />
+		<controller name="BackupController" />
+		<view name="Backup" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END Backup ######################################## -->
+
+	<!-- BEGIN Log ######################################## -->
+	<module name="Log">
+		<model name="Company" />
+		<controller name="LogController" />
+		<view name="Log" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END Log ######################################## -->
+
+	<!-- REPORTE DE GESTION DE COBRANZAS -->
+	<module name="PortfolioRecoveryManagement">
+		<model name="PortfolioRecoveryManagement" />
+		<controller name="PortfolioRecoveryManagementController" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="PortfolioRecoveryManagementConsolidateReport">
+		<model name="ViewPortfolioRecoveryManagementReport" />
+		<controller
+			name="PortfolioRecoveryManagementConsolidatedReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<!-- END GESTION DE COBRANZAS -->
+
+	<!-- BEGIN TXBlocking ######################################## -->
+	<module name="RequestTXBlocking">
+		<model name="Transaction" />
+		<controller name="RequestTXBlockingController" />
+		<view name="RequestTXBlocking" />
+		<tab name="TXBlocking" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXBlocking">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXBlockingController" />
+		<view name="AuthorizeTXBlocking" />
+		<tab name="TXBlocking" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXBlocking ######################################## -->
+
+	<!-- BEGIN TXUnlocking ######################################## -->
+	<module name="RequestTXUnlocking">
+		<model name="Transaction" />
+		<controller name="RequestTXUnlockingController" />
+		<view name="RequestTXUnlocking" />
+		<tab name="TXUnlocking" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXUnlocking">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXUnlockingController" />
+		<view name="AuthorizeTXUnlocking" />
+		<tab name="TXUnlocking" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END TXUnlocking ######################################## -->
+	<module name="ConsultAccountPaytable">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<controller name="ConsultAccountPaytableController" />
+		<model name="AccountPaytable" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="UpdateAccountPaytableDates">
+		<model name="AccountPaytable" />
+		<controller name="UpdateAccountPaytableController" />
+		<view name="UpdateAccountPaytableDates" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="UpdateAccountPaytableInsurances">
+		<model name="AccountPaytable" />
+		<controller name="UpdateAccountPaytableController" />
+		<view name="UpdateAccountPaytableInsurances" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="UpdateAccountPaytable">
+		<model name="AccountPaytable" />
+		<controller name="UpdateAccountPaytableController" />
+		<view name="UpdateAccountPaytable" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="RequestTXReverseTransaction">
+		<model name="Transaction" />
+		<controller name="RequestTXTransactionController" />
+		<view name="RequestTXReverseTransaction" />
+		<tab name="TXReverseTransaction" />
+		<mode-controller name="DetailList" />
+	</module>
+
+
+	<module name="AuthorizeTXReverseTransaction">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXTransactionController" />
+		<view name="AuthorizeTXReverseTransaction" />
+		<tab name="TXReverseTransaction" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="ConsultRetentionPurchase">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountRetention" />
+		<controller name="ConsultRetentionPurchaseController" />
+		<controller name="ExtendedPrint" />
+		<view name="ConsultRetentionPurchase" />
+		<tab name="ConsultRetentionPurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultRetentionSale">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountRetention" />
+		<controller name="ConsultRetentionSaleController" />
+		<controller name="ExtendedPrint" />
+		<view name="ConsultRetentionSale" />
+		<tab name="ConsultRetentionSale" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="RequestTXAdjustmentInsuranceBalances">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXAdjustmentInsuranceBalancesController" />
+		<view name="RequestTXAdjustmentInsuranceBalances" />
+		<tab name="TXAdjustmentInsuranceBalances" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXAdjustmentInsuranceBalances">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXAdjustmentInsuranceBalancesController" />
+		<view name="AuthorizeTXAdjustmentInsuranceBalances" />
+		<tab name="TXAdjustmentInsuranceBalances" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="RequestTXAdjustmentOtherBalances">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXAdjustmentOtherBalancesController" />
+		<view name="RequestTXAdjustmentOtherBalances" />
+		<tab name="TXAdjustmentOtherBalances" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXAdjustmentOtherBalances">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXAdjustmentOtherBalancesController" />
+		<view name="AuthorizeTXAdjustmentOtherBalances" />
+		<tab name="TXAdjustmentOtherBalances" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="ConsultTransaction">
+		<model name="Financial" />
+		<controller name="ConsultTransactionController" />
+		<view name="ConsultTransaction" />
+		<tab name="ConsultTransaction" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="UpdateAccountData">
+		<model name="Account" />
+		<controller name="UpdateAccountDataController" />
+		<view name="UpdateAccountData" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ResourceTXDestination">
+		<model name="Transaction" />
+		<view name="ResourceTXDestination" />
+		<tab name="TXResourceDestination" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="ConsultAssistControl">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AssistControl" />
+		<controller name="ConsultAssistControlController" />
+		<mode-controller name="DetailList" />
+	</module>
+
+	<module name="FinancialIndicators">
+		<model name="ViewFinancialIndicators" />
+		<controller name="FinancialIndicatorsController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+
+	<!-- BEGIN EquifaxReportPrint ######################################## -->
+	<module name="EquifaxReportPrint">
+		<model name="ViewEquifaxReport" />
+		<controller name="EquifaxReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<!-- END EquifaxReportPrint ######################################## -->
+	<!--BEGIN MODULE ATS -->	
+	<module name="CompanyDocumentsReport">
+		<model name="CompanyDocument" />
+		<controller name="DocumentCompanyController" /> 
+		<mode-controller name="DetailList" />
+	</module>
+	<!--END MODULE ATS -->
+	<!--BEGIN MODULE VEHICLE -->
+	<module name="Vehicle">	
+		<model name="Vehicle" />
+		<view name="Vehicle" />
+		<tab name="TabVehicle" />
+		<controller name="VehicleController" />
+		<mode-controller name="DetailList" />	
+	</module>
+	<module name="EditVehicle">
+		<model name="Vehicle" />
+		<view name="EditVehicle" />
+		<tab name="TabEditVehicle" />
+		<controller name="EditVehicleController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!--END MODULE VEHICLE -->
+	<module name="NewSMSNotification">
+		<model name="Notification" />
+		<view name="Sms" />
+		<controller name="NotificationSMSControllers" /> 
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="InventoryBalance">
+		<env-var name="XAVA_LIST_ACTION" value=""/>
+		<model name="Balance" />
+		<tab name="InventoryBalance" />
+		<controller name="InventoryBalanceController" /> 
+	</module>	
+	<!-- BEGIN InvoiceSaleVehicle -->
+	<module name="ConsultInvoiceSaleVehicle">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountInvoice" />
+		<controller name="ConsultInvoiceSaleVehicleController" />
+		<controller name="ExtendedPrint" />
+		<view name="InvoiceSale" />
+		<tab name="PrinterVehicleInvoiceSale" />
+		<mode-controller name="DetailList" />
+	</module> 
+	<!-- END InvoiceSaleVehicle -->
+	<!-- BEGIN MODULE ADJUSTMENT BALANCES INVENTORY -->
+   	<module  name="RequestTXAdjustmentBalancesInventory">
+		<model name="Transaction" />
+		<view name="RequestTXAdjustmentBalancesInventory" />
+		<tab name="TXRequestAdjustmentBalancesInventory"/>
+		<controller name="RequestTXAdjustmentBalancesInventoryController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<!-- END MODULE INVENTORY ADJUSTMENT BALANCES INVENTORY-->
+	<module  name="AuthorizeTXAdjustmentBalancesInventory">
+		<model name="Transaction" />
+		<view name="AuthorizeTXAdjustmentBalancesInventory" />
+		<tab name="TXAuthorizeTXAdjustmentBalancesInventory"/>
+		<controller name="RequestTXAdjustmentBalancesInventoryController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="Recipe">
+		<model name="AccountInvoice" />
+		<view name="RequestTXRecipe" />
+		<tab name="TXRecipe"/>
+		<controller name="RequestTXRecipeController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ConsultRecipe">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountInvoice" />
+		<view name="RequestTXRecipe" />
+		<tab name="TXRecipe" />
+		<controller name="RequestTXRecipeController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="ImportXmlInvoicePurchase">
+		<model name="InvoicePurchaseXml" />
+		<view name="InvoicePurchaseXml" />		
+		<controller name="ImportXmlInvoicePurchaseController"/>
+	</module>
+	<module name="Provider">
+		<model name="Provider" />
+		<view name="ViewProvider" />
+		<controller name="ProviderController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="NewServiceAppUser">
+		<model name="ViewUser" />
+		<controller name="NewServiceAppUserController" />
+		<view name="ServiceApp" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="TXTransferEwallet">
+		<model name="Transaction" />
+		<controller name="TXTransferEwalletController" />
+		<view name="TXTransferEwallet" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="ProductProviderTemp">
+		<model name="ProductProviderTemp" />
+		<view name="ProductProviderTemp" />
+		<controller name="ProductProviderController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="TransferItemInvoicePurchase">
+		<model name="AccountTransferTemp" />
+		<controller name="TransferInvoicePurchaseController" />
+		<view name="AccountTransferTemp" />
+	</module>
+	<module name="UpdateAccountInvoice">
+		<model name="AccountInvoice" />
+		<controller name="AccountInvoiceController" />
+		<controller name="ExtendedPrint" />
+		<view name="UpdateAccountInvoice" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="LocalEwalletReport">
+		<model name="ViewLocalEwalletReport" />
+		<controller name="LocalEwalletReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="MyDailyTransactions">
+		<model name="ViewMyDailyTransactions" />
+		<controller name="ViewMyDailyTransactionsController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="CloneOrderPurchase">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="AccountInvoice" />
+		<controller name="CloneOrderPurchaseController" />
+		<view name="TXCloneOrderPurchase" />
+		<tab name="CloneTXOrderPurchase" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="RequestTXCashTransferSend">
+		<model name="Transaction" />
+		<controller name="RequestTXCashTransferSendController" />
+		<view name="RequestTXCashTransferSend" />
+		<tab name="TXCashTransferSend" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCashTransferSend">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCashTransferSendController" />
+		<view name="AuthorizeTXCashTransferSend" />
+		<tab name="TXCashTransferSend" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="RequestTXCashTransferReception">
+		<model name="Transaction" />
+		<controller name="RequestTXCashTransferReceptionController" />
+		<view name="RequestTXCashTransferReception" />
+		<tab name="TXCashTransferReception" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXCashTransferReception">
+		<model name="Transaction" />
+		<controller name="AuthorizeTXCashTransferReceptionController" />
+		<view name="AuthorizeTXCashTransferReception" />
+		<tab name="TXCashTransferReception" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="CashReport">
+		<model name="ViewCashReport" />
+		<controller name="ViewCashReportController" />
+		<mode-controller name="DetailOnly" />
+	</module>
+	<module name="PrintAuthorizeTXTransferItem">
+		<env-var name="XAVA_SEARCH_ACTION" value="CRUD.searchReadOnly" />
+		<model name="Transaction" />
+		<controller name="PrintAuthorizeTXTransferItemController" />
+		<view name="AuthorizeTXTransferItem" />
+		<tab name="TXPrintTransferItem" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="TransferItemFileInvoicePurchase">
+		<model name="AccountTransferTemp" />
+		<controller name="TransferFileInvoicePurchaseController" />
+		<view name="AccountTransferFileTemp" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="PersonBlackListedAnalysis">
+		<model name="PersonBlackListedAnalysis" />
+		<view name="PersonBlackListed"/>
+		<tab name="PersonBlackListedTab" />
+		<controller name="PersonBlackListedController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="RequestTXSalePortfolioPrepayment">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXSalePortfolioPrepaymentController" />
+		<view name="RequestTXSalePortfolioPrepayment" />
+		<tab name="TXSalePortfolioPrepayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXSalePortfolioPrepayment">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXSalePortfolioPrepaymentController" />
+		<view name="AuthorizeTXSalePortfolioPrepayment" />
+		<tab name="TXSalePortfolioPrepayment" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="RequestTXSalePortfolioPrepaymentValueDate">
+		<model name="Transaction" />
+		<controller
+			name="RequestTXSalePortfolioPrepaymentValueDateController" />
+		<view name="RequestTXSalePortfolioPrepaymentValueDate" />
+		<tab name="TXSalePortfolioPrepaymentValueDate" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="AuthorizeTXSalePortfolioPrepaymentValueDate">
+		<model name="Transaction" />
+		<controller
+			name="AuthorizeTXSalePortfolioPrepaymentValueDateController" />
+		<view name="AuthorizeTXSalePortfolioPrepaymentValueDate" />
+		<tab name="TXSalePortfolioPrepaymentValueDate" />
+		<mode-controller name="DetailList" />
+	</module>	
+	<module name="EmployeeContract">
+		<model name="EmployeeContract"/>
+		<view name="EmployeeContract" />
+		<tab name="TabEmployeeContract" />
+		<controller name="EmployeeContractController"/>
+	</module>
+	<module name="FinishEmployeeContract">
+		<model name="EmployeeContract" />
+		<view name="FinishEmployeeContract" />
+		<tab name="TabFinishEmployeeContract" />
+		<controller name="FinishEmployeeContractController" />
+	</module>
+	<module name="PayrollWorkedDay">
+		<model name="PayrollWorkedDay"/>
+		<controller name="PayrollWorkedDayController"/>
+	</module>
+	<module name="PayrollBiweekAdvancePercentage">
+		<model name="PayrollBiweekAdvancePercentage"/>
+		<controller name="PayrollBiweekAdvancePercentageController"/>
+		<mode-controller name="DetailList"/>
+	</module>
+	<module name="PayrollOvertime">
+		<model name="PayrollOvertime"/>
+		<controller name="PayrollOvertimeController"/>
+	</module>
+	<module name="RequestPayrollOvertime">
+		<model name="PayrollOvertime"/>
+		<view name="RequestPayrollOvertime"/>
+		<tab name="TabRequestPayrollOvertime" />
+		<controller name="RequestPayrollOvertimeController"/>
+	</module>
+	<module name="AuthorizePayrollOvertime">
+		<model name="PayrollOvertime"/>
+		<view name="AuthorizePayrollOvertime"/>
+		<tab name="TabAuthorizePayrollOvertime"/>
+		<controller name="AuthorizePayrollOvertimeController"/>
+	</module>
+	<module name="ViewImportOvertimeFile">
+		<model name="ViewImportOvertimeFile"/>
+		<controller name="ImportOvertimeFileController"/>
+	</module>
+	<module name="PayRoll">
+		<model name="PayRoll"/>
+		<view name="RequestPayRoll" />
+		<tab name="RequestPayRoll" />
+		<controller name="PayRollController"/>
+	</module>
+	<module name="RequestTransactionPayRoll">
+		<model name="PayRoll"/>
+		<view name="RequestTransactionPayRoll" />
+		<tab name="RequestPayRoll" />
+		<controller name="RequestTransactionPayRollController"/>
+	</module>
+	<module name="AuthorizeTransactionPayRoll">
+		<model name="Transaction" />
+		<view name="AuthorizeTXPayRoll" />
+		<tab name="TXPayRoll" />
+		<controller name="AuthorizeTransactionPayRollController" />
+		<mode-controller name="DetailList" />
+	</module>
+	<module name="PayrollConsolidated">
+		<model name="PayrollConsolidated" />
+		<view name="ViewPayrollConsolidated" />
+		<tab name="TabPayrollConsolidated" />
+		<controller name="PayrollConsolidatedController" />
+	</module>
+		<module name="RequestTransactionPayRollConsolidated">
+		<model name="PayrollConsolidated"/>
+		<view name="RequestTransactionPayRollConsolidated" />
+		<tab name="TabPayrollConsolidated" />
+		<controller name="RequestTransactionPayRollConsolidatedController"/>
+	</module>
+	<module name="RequestRolePayment">
+		<model name="ViewRolePayment" />
+		<controller name="ViewRolePaymentController" />
+		<mode-controller name="DetailOnly" />
+	</module>	
+		<module name="PayrollItemEmployee">
+		<model name="PayrollItemEmployee" />
+		<controller name="PayrollItemEmployeeController" />
+ 	</module>
+ 	<module name="ConsultAndSendMailPayroll">
+		<model name="ViewConsultAndSendMailPayroll" />
+		<controller name="ConsultAndSendMailPayrollController"/>  
+	</module>		
+</application>

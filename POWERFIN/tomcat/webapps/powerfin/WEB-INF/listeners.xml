@@ -1,0 +1,5 @@
+<listener>
+	<listener-class>
+		com.powerfin.listeners.ListenerTask
+	</listener-class>
+</listener>

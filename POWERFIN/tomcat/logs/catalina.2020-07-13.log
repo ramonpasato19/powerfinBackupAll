@@ -1,0 +1,200 @@
+13-Jul-2020 08:20:52.437 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.13
+13-Jul-2020 08:20:52.651 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 2 2018 14:27:55 UTC
+13-Jul-2020 08:20:52.653 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.13.0
+13-Jul-2020 08:20:52.653 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Jul-2020 08:20:52.654 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.0.10-050010-generic
+13-Jul-2020 08:20:52.655 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Jul-2020 08:20:52.655 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/local/jre1.8.0_221
+13-Jul-2020 08:20:52.655 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_221-b11
+13-Jul-2020 08:20:52.656 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Jul-2020 08:20:52.656 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/lramon/POWERFIN/tomcat
+13-Jul-2020 08:20:52.656 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/lramon/POWERFIN/tomcat
+13-Jul-2020 08:20:52.657 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/lramon/POWERFIN/tomcat/conf/logging.properties
+13-Jul-2020 08:20:52.657 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Jul-2020 08:20:52.658 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Jul-2020 08:20:52.658 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Jul-2020 08:20:52.659 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Jul-2020 08:20:52.659 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Jul-2020 08:20:52.660 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/lramon/POWERFIN/tomcat
+13-Jul-2020 08:20:52.660 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/lramon/POWERFIN/tomcat/
+13-Jul-2020 08:20:52.660 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/lramon/POWERFIN/tomcat/temp
+13-Jul-2020 08:20:52.661 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Jul-2020 08:20:54.532 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Jul-2020 08:20:54.599 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jul-2020 08:20:54.632 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Jul-2020 08:20:54.635 INFORMACIÓN [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Jul-2020 08:20:54.636 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4913 ms
+13-Jul-2020 08:20:54.873 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+13-Jul-2020 08:20:54.873 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.13
+13-Jul-2020 08:20:54.950 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/home/lramon/POWERFIN/tomcat/webapps/powerfin] de la aplicación web
+13-Jul-2020 08:21:17.075 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = powerfinDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+13-Jul-2020 08:21:17.076 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = powerfinDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Jul-2020 08:21:17.081 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = OpenXavaTestDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+13-Jul-2020 08:21:17.081 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = OpenXavaTestDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Jul-2020 08:21:17.082 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = MySchoolDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+13-Jul-2020 08:21:17.082 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = MySchoolDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Jul-2020 08:21:17.082 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = InvoiceDemoDS Property maxActive is not used in DBCP2, use maxTotal instead. maxTotal default value is 8. You have set value of "20" for "maxActive" property, which is being ignored.
+13-Jul-2020 08:21:17.082 ADVERTENCIA [main] org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory.getObjectInstance Name = InvoiceDemoDS Property maxWait is not used in DBCP2 , use maxWaitMillis instead. maxWaitMillis default value is -1. You have set value of "10000" for "maxWait" property, which is being ignored.
+13-Jul-2020 08:21:17.250 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+13-Jul-2020 08:21:17.531 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Using default implementation for ThreadExecutor
+13-Jul-2020 08:21:17.534 INFORMACIÓN [main] org.quartz.simpl.SimpleThreadPool.initialize Job execution threads will use class loader of thread: main
+13-Jul-2020 08:21:17.545 INFORMACIÓN [main] org.quartz.core.SchedulerSignalerImpl.<init> Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+13-Jul-2020 08:21:17.546 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.<init> Quartz Scheduler v.2.4.0-SNAPSHOT created.
+13-Jul-2020 08:21:17.546 INFORMACIÓN [main] org.quartz.simpl.RAMJobStore.initialize RAMJobStore initialized.
+13-Jul-2020 08:21:17.547 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.initialize Scheduler meta-data: Quartz Scheduler (v2.4.0-SNAPSHOT) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+13-Jul-2020 08:21:17.547 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+13-Jul-2020 08:21:17.547 INFORMACIÓN [main] org.quartz.impl.StdSchedulerFactory.instantiate Quartz scheduler version: 2.4.0-SNAPSHOT
+13-Jul-2020 08:21:17.547 INFORMACIÓN [main] org.quartz.core.QuartzScheduler.start Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+13-Jul-2020 08:21:17.548 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Start Scheduler...
+13-Jul-2020 08:21:18.155 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+13-Jul-2020 08:21:18.187 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13-Jul-2020 08:21:18.321 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.3.9.Final}
+13-Jul-2020 08:21:18.323 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+13-Jul-2020 08:21:18.534 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+13-Jul-2020 08:21:18.830 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:21:20.078 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-Jul-2020 08:21:21.130 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-Jul-2020 08:21:21.138 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3ea3d6ed
+13-Jul-2020 08:21:21.196 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+13-Jul-2020 08:21:22.348 WARN [main] org.hibernate.id.UUIDHexGenerator.<init> HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+13-Jul-2020 08:21:22.662 INFO [main] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 6.0.15.Final
+13-Jul-2020 08:21:26.809 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-Jul-2020 08:21:26.949 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+13-Jul-2020 08:21:26.949 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13-Jul-2020 08:21:27.010 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:21:27.177 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-Jul-2020 08:21:27.295 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-Jul-2020 08:21:27.296 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3ea3d6ed
+13-Jul-2020 08:21:27.297 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+13-Jul-2020 08:21:28.686 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-Jul-2020 08:21:29.967 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+13-Jul-2020 08:21:29.967 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13-Jul-2020 08:21:30.007 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:21:30.121 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-Jul-2020 08:21:30.179 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-Jul-2020 08:21:30.179 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3ea3d6ed
+13-Jul-2020 08:21:30.180 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+13-Jul-2020 08:21:31.123 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-Jul-2020 08:21:31.533 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized MOVILIZA ECUADOR, Tasks: 2
+13-Jul-2020 08:21:31.549 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: movilizaec, Task: NOTIFICACIONES POR EMAIL
+13-Jul-2020 08:21:31.553 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: movilizaec, Task: NOTIFICACIONES POR WHASTAPP
+13-Jul-2020 08:21:31.665 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized DEFAULT, Tasks: 0
+13-Jul-2020 08:21:31.671 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+13-Jul-2020 08:21:31.671 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13-Jul-2020 08:21:31.719 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:21:31.849 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-Jul-2020 08:21:31.913 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-Jul-2020 08:21:31.913 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3ea3d6ed
+13-Jul-2020 08:21:31.914 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+13-Jul-2020 08:21:32.651 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-Jul-2020 08:21:32.717 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized YALOBOX, Tasks: 3
+13-Jul-2020 08:21:32.719 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: yalobox, Task: AUTORIZAR TRANSACCIONES
+13-Jul-2020 08:21:32.719 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: yalobox, Task: NOTIFICACIONES POR EMAIL
+13-Jul-2020 08:21:32.720 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized Add Task, Schema: yalobox, Task: NOTIFICACIONES POR WHASTAPP
+13-Jul-2020 08:21:32.725 WARN [main] org.hibernate.jpa.boot.spi.ProviderChecker.hibernateProviderNamesContain HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; [org.hibernate.jpa.HibernatePersistenceProvider] will be used instead.
+13-Jul-2020 08:21:32.725 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+13-Jul-2020 08:21:32.762 WARN [main] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-mapping. Use namespace http://www.hibernate.org/dtd/hibernate-mapping instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:21:32.858 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+13-Jul-2020 08:21:32.894 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+13-Jul-2020 08:21:32.895 INFO [main] org.hibernate.type.BasicTypeRegistry.register HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@3ea3d6ed
+13-Jul-2020 08:21:32.895 INFO [main] org.hibernate.envers.boot.internal.EnversServiceImpl.configure Envers integration enabled? : true
+13-Jul-2020 08:21:33.382 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+13-Jul-2020 08:21:33.887 INFORMACIÓN [main] org.openxava.util.Users.contextInitialized CRESAFE, Tasks: 0
+13-Jul-2020 08:21:34.736 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [845] milliseconds.
+13-Jul-2020 08:21:36.326 ADVERTENCIA [main] org.openxava.controller.meta.xmlparse.ControllersParser.createControllers ¡ADVERTENCIA! Se ha cargado el controlador DefaultListActionsForCollections más de una vez
+13-Jul-2020 08:21:37.534 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info DWR Version 2.0.10 starting.
+13-Jul-2020 08:21:37.535 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Servlet Engine: Apache Tomcat/9.0.13
+13-Jul-2020 08:21:37.535 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Java Version:   1.8.0_221
+13-Jul-2020 08:21:37.536 INFORMACIÓN [main] org.directwebremoting.impl.StartupUtil.info - Java Vendor:    Oracle Corporation
+13-Jul-2020 08:21:37.838 INFORMACIÓN [main] org.directwebremoting.dwrp.DefaultConverterManager.info Probably not an issue: org.jdom.Document is not available so the jdom converter will not load. This is only a problem if you wanted to use it.
+13-Jul-2020 08:21:37.838 INFORMACIÓN [main] org.directwebremoting.dwrp.DefaultConverterManager.info Probably not an issue: org.jdom.Element is not available so the jdom converter will not load. This is only a problem if you wanted to use it.
+13-Jul-2020 08:21:37.870 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/lramon/POWERFIN/tomcat/webapps/powerfin] has finished in [42.920] ms
+13-Jul-2020 08:21:37.872 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Jul-2020 08:21:37.879 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Jul-2020 08:21:38.650 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in 44013 ms
+13-Jul-2020 08:31:52.736 WARN [http-nio-8080-exec-3] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:31:52.811 WARN [http-nio-8080-exec-3] org.hibernate.boot.jaxb.internal.stax.LocalXmlResourceResolver.resolveEntity HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+13-Jul-2020 08:31:52.856 INFORMACIÓN [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.<clinit> XavaPro 6.3.1 (2020-4-3)
+13-Jul-2020 08:31:55.101 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 null MODULE:SignIn
+13-Jul-2020 08:31:57.327 DETALLADO [http-nio-8080-exec-10] org.openxava.web.dwr.DWRBase.request Tiempo petición=1374 ms
+13-Jul-2020 08:32:00.587 DETALLADO [http-nio-8080-exec-8] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SignIn.signIn 1806ms
+13-Jul-2020 08:32:00.590 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=1814 ms
+13-Jul-2020 08:32:02.134 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.135 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.135 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.135 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.135 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.135 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.135 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.136 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.136 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.136 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.136 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.137 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.137 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.137 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.138 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.138 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.138 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.139 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.139 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.139 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.139 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.139 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.139 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.140 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.140 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:02.140 ADVERTENCIA [http-nio-8080-exec-2] org.openxava.component.parse.AnnotatedClassParser.isForView Ambos forViews y notForViews han sido especificadas. Solo una de ellas es posible, por tanto notForViews se ignora
+13-Jul-2020 08:32:04.493 DETALLADO [http-nio-8080-exec-2] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:InventoryControl
+13-Jul-2020 08:32:05.654 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+13-Jul-2020 08:32:05.657 DETALLADO [http-nio-8080-exec-3] org.openxava.tab.impl.TableModelBean.getRow nextChunk=6
+13-Jul-2020 08:32:05.675 DETALLADO [http-nio-8080-exec-3] org.openxava.web.dwr.DWRBase.request Tiempo petición=831 ms
+13-Jul-2020 11:01:45.266 DETALLADO [http-nio-8080-exec-3] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 null MODULE:SignIn
+13-Jul-2020 11:01:45.509 DETALLADO [http-nio-8080-exec-8] org.openxava.web.dwr.DWRBase.request Tiempo petición=11 ms
+13-Jul-2020 11:01:46.496 DETALLADO [http-nio-8080-exec-7] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon SignIn.signIn 30ms
+13-Jul-2020 11:01:46.497 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=34 ms
+13-Jul-2020 11:01:46.706 DETALLADO [http-nio-8080-exec-6] org.openxava.controller.ModuleManager.log 0:0:0:0:0:0:0:1 lramon MODULE:InventoryControl
+13-Jul-2020 11:01:46.955 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.JPATabProvider.nextBlock [JPATabProvider.nextBlock] Ejecutando SELECT e.branchId, e.branchId, e.name from Branch e con argumentos 
+13-Jul-2020 11:01:46.957 DETALLADO [http-nio-8080-exec-7] org.openxava.tab.impl.TableModelBean.getRow nextChunk=1
+13-Jul-2020 11:01:46.965 DETALLADO [http-nio-8080-exec-7] org.openxava.web.dwr.DWRBase.request Tiempo petición=48 ms
+13-Jul-2020 22:21:12.461 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+13-Jul-2020 22:21:12.665 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+13-Jul-2020 22:21:12.673 INFORMACIÓN [Thread-5] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+13-Jul-2020 22:21:14.277 INFORMACIÓN [Thread-5] org.quartz.core.QuartzScheduler.shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+13-Jul-2020 22:21:14.277 INFORMACIÓN [Thread-5] org.quartz.core.QuartzScheduler.standby Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+13-Jul-2020 22:21:14.507 INFORMACIÓN [Thread-5] org.quartz.core.QuartzScheduler.shutdown Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+13-Jul-2020 22:21:16.872 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@132ecac]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@d7ab973]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.874 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.874 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@132ecac]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@1503591c]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.875 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.876 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.878 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@132ecac]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@357bab03]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.878 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.879 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@132ecac]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@f9e87d6]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.879 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.879 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@132ecac]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@5ecef4da]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.880 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.880 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.881 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@132ecac]) y un valor del tipo [org.openxava.util.EmailNotifications.ModuleInfo] (valor [org.openxava.util.EmailNotifications$ModuleInfo@ee5c675]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.881 GRAVE [Thread-5] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks La aplicación web [powerfin] creó un ThreadLocal con clave del tipo [java.lang.ThreadLocal] (valor [java.lang.ThreadLocal@31ecdca3]) y un valor del tipo [org.openxava.util.UserInfo] (valor [org.openxava.util.UserInfo@3428254]) pero no pudo quitarlo cuando la aplicación web se paró. Los hilos se van a renovar con el tiempo para intentar evitar in posible fallo de memoria.
+13-Jul-2020 22:21:16.924 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+13-Jul-2020 22:21:16.965 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+13-Jul-2020 22:21:16.977 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+13-Jul-2020 22:21:16.981 INFORMACIÓN [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
